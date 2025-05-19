@@ -114,3 +114,12 @@ body {
   font-family: 'Helvetica', sans-serif;
   color: #888;
 }
+
+@media screen and (max-width: 600px {
+  body {
+    font-size: 14px;
+  }
+  .container {
+    padding: 10px;
+  }
+}
