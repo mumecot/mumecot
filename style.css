@@ -50,7 +50,6 @@ body {
   width: 80%;
 }
 
-.nav-line,
 .bottom-line {
   border: none;
   border-top: 1px solid #ded9c3;
@@ -58,10 +57,6 @@ body {
   width: 80%;
 }
 
-.nav {
-  margin: 0
-  padding: 2px 0;
-}
 
 .copyright {
   font-size: 0.75em;
