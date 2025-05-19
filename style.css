@@ -8,6 +8,7 @@ body {
   text-align: center;
 }
 
+/* --- 全体枠 --- */
 .outer-frame {
   border: double 6px #ded9c3;
   padding: 2em;
@@ -17,31 +18,10 @@ body {
   margin-right: auto;
 }
 
+/* --- 共通タイトル・ライン --- */
 .site-title {
   font-size: 2em;
   margin-bottom: 0.5em;
-}
-
-.navbar {
-  display: flex;
-  justify-content: center;
-  gap: 2em;
-  margin-bottom: 0.5em;
-  padding-top: 0.2em;
-}
-
-.navbar a {
-  color: #ded9c3;
-  text-decoration: none;
-  font-size: 1.1em;
-}
-
-.main-image {
-  background-color: #1f2a38;
-  padding: 4em;
-  border: 1px solid #ded9c3;
-  margin-bottom: 1.5em;
-  font-size: 1.2em;
 }
 
 .title-line {
@@ -58,10 +38,73 @@ body {
   width: 80%;
 }
 
-.spacer {
-  height: 2em;
+/* --- ナビゲーション --- */
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 0.5em;
+  padding-top: 0.2em;
 }
 
+.navbar a {
+  color: #ded9c3;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+/* --- インデックス用画像エリア --- */
+.main-image {
+  background-color: #1f2a38;
+  padding: 4em;
+  border: 1px solid #ded9c3;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+}
+
+/* --- アバウトページ用 --- */
+.profile-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.profile-icon {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid #ded9c3;
+}
+
+.profile-box, .links-box {
+  border: 1px solid #ded9c3;
+  padding: 1em;
+  width: 90%;
+  max-width: 600px;
+  text-align: left;
+}
+
+.profile-box h2 {
+  margin-top: 0;
+}
+
+.links-box ul {
+  list-style: none;
+  padding: 0;
+}
+
+.links-box li {
+  margin: 0.5em 0;
+}
+
+.links-box a {
+  color: #ded9c3;
+  text-decoration: none;
+}
+
+/* --- コピーライト --- */
 .copyright {
   font-size: 0.75em;
   font-family: 'Helvetica', sans-serif;
