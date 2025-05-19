@@ -26,7 +26,8 @@ body {
   display: flex;
   justify-content: center;
   gap: 2em;
-  margin-bottom: 1.5em;
+  margin-bottom: 0.5em;
+  padding-top: 0.2em;
 }
 
 .navbar a {
@@ -46,14 +47,14 @@ body {
 .title-line {
   border: none;
   border-top: 1px solid #ded9c3;
-  margin: 2px auto;
+  margin: 10px auto 15px auto;
   width: 80%;
 }
 
 .bottom-line {
   border: none;
   border-top: 1px solid #ded9c3;
-  margin: 2px auto;
+  margin: 10px auto 0 auto;
   width: 80%;
 }
 
