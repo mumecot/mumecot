@@ -1,0 +1,50 @@
+
+body {
+  background-color: #0f1923;
+  color: #ded9c3;
+  font-family: 'Fira Mono', monospace;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.outer-frame {
+  border: double 6px #ded9c3;
+  padding: 2em;
+  margin: 3em;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.site-title {
+  font-size: 2em;
+  margin-bottom: 0.5em;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  gap: 2em;
+  margin-bottom: 1.5em;
+}
+
+.navbar a {
+  color: #ded9c3;
+  text-decoration: none;
+  font-size: 1.1em;
+}
+
+.main-image {
+  background-color: #1f2a38;
+  padding: 4em;
+  border: 1px solid #ded9c3;
+  margin-bottom: 1.5em;
+  font-size: 1.2em;
+}
+
+.copyright {
+  font-size: 0.75em;
+  font-family: 'Helvetica', sans-serif;
+  color: #888;
+}
