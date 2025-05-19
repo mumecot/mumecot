@@ -115,11 +115,35 @@ body {
   color: #888;
 }
 
-@media screen and (max-width: 600px {
-  body {
-    font-size: 14px;
+@media screen and (max-width: 600px) {
+  .outer-frame {
+    padding: 1em;
+    margin: 1.5em auto;
   }
-  .container {
-    padding: 10px;
+
+  .navbar {
+    flex-direction: column;
+    gap: 1em;
+  }
+
+  .main-image {
+    padding: 2em;
+    font-size: 1em;
+  }
+
+  .profile-box, 
+  .links-box {
+    font-size: 13px;
+    padding: 0.8em;
+  }
+
+  .site-title {
+    font-size: 1.5em;
+  }
+
+  .profile-icon {
+    width: 50px;
+    height: 50px;
+    margin: 20px;
   }
 }
