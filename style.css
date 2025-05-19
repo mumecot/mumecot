@@ -69,11 +69,12 @@ body {
 }
 
 .profile-icon {
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ded9c3;
+  margin: 20px auto 10px auto;
 }
 
 .profile-box, 
