@@ -46,7 +46,14 @@ body {
 .title-line {
   border: none;
   border-top: 1px solid #ded9c3;
-  margin: 10px auto 20px auto;
+  margin: 5px auto 20px auto;
+  width: 80%;
+}
+
+.bottom-line {
+  border: none;
+  border-top: 1px solid #ded9c3;
+  margin: 5px auto 20px auto;
   width: 80%;
 }
 
