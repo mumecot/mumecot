@@ -47,7 +47,7 @@ body {
 .title-line {
   border: none;
   border-top: 1px solid #ded9c3;
-  margin: 10px auto 15px auto;
+  margin: 20px auto 10px auto;
   width: 80%;
 }
 
@@ -58,6 +58,9 @@ body {
   width: 80%;
 }
 
+.spacer {
+  height: 2em;
+}
 
 .copyright {
   font-size: 0.75em;
