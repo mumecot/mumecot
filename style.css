@@ -43,6 +43,13 @@ body {
   font-size: 1.2em;
 }
 
+.title-line {
+  border: none;
+  border-top: 1px solid #ded9c3;
+  margin: 10px auto 20px auto;
+  width: 80%;
+}
+
 .copyright {
   font-size: 0.75em;
   font-family: 'Helvetica', sans-serif;
