@@ -76,7 +76,8 @@ body {
   border: 2px solid #ded9c3;
 }
 
-.profile-box, .links-box {
+.profile-box, 
+.links-box {
   border: 1px solid #ded9c3;
   padding: 1em;
   width: 90%;
@@ -100,6 +101,8 @@ body {
 .links-box a {
   color: #ded9c3;
   text-decoration: none;
+  display: inline-block;
+  margin: 0.5em 0;
 }
 
 /* --- コピーライト --- */
