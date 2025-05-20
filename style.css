@@ -123,10 +123,9 @@ body {
   background-color: #1f2a38;
   border: 1px solid #ded9c3;
   padding: 1em;
+  margin-bottom: 1.5em;
   width: 90%;
   max-width: 600px;
-  text-align: left;
-  font-size: 14px;
   border-radius: 5px;
 }
 
