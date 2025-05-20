@@ -26,14 +26,14 @@ body {
   border: none;
   border-top: 1px solid #ded9c3;
   margin: 20px auto 10px auto;
-  width: 90%;
+  width: 80%;
 }
 
 .bottom-line {
   border: none;
   border-top: 1px solid #ded9c3;
   margin: 10px auto 0 auto;
-  width: 90%;
+  width: 80%;
 }
 
 /* --- ナビゲーション --- */
@@ -81,8 +81,8 @@ body {
 .links-box {
   border: 1px solid #ded9c3;
   padding: 1em;
-  width: 90%;
-  max-width: 600px;
+  width: 100%;
+  max-width: 700px;
   text-align: left;
   font-size: 14px;
 }
