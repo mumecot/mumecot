@@ -238,7 +238,7 @@ border: 1px solid #ded9c3;
 transition: background-color 0.3s ease, color 0.3s ease;
 }
 
-.read-more-btn:hover {
+.blog-card a.read-more-btn:hover {
 background-color: #ded9c3;
 color: #1e2a38;
 }
