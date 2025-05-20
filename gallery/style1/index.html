@@ -1,24 +1,104 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>スタイル①</title>
-  <link rel="stylesheet" href="../../css/style.css">
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Style 1 Gallery</title>
+<link rel="stylesheet" href="../../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Indie+Flower&display=swap" rel="stylesheet">
+<style>
+.main-visual {
+width: 100%;
+max-width: 600px;
+margin: 2em auto;
+border-radius: 10px;
+overflow: hidden;
+box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.main-visual img {
+width: 100%;
+height: auto;
+}
+
+.style-description {
+text-align: center;
+font-family: 'Indie Flower', cursive;
+font-size: 1.4em;
+color: #ded9c3;
+margin-bottom: 2em;
+}
+
+.thumbnail-grid {
+display: flex;
+flex-wrap: wrap;
+gap: 1.5em;
+justify-content: center;
+margin-bottom: 3em;
+}
+
+.thumb {
+width: 120px;
+height: 120px;
+border-radius: 50%;
+overflow: hidden;
+border: 2px solid #ded9c3;
+transition: transform 0.3s ease;
+}
+
+.thumb:hover {
+transform: scale(1.05);
+}
+
+.thumb img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+}
+
+.back-link {
+text-align: center;
+margin-bottom: 2em;
+}
+
+.back-link a {
+font-family: 'Fira Mono', monospace;
+color: #ded9c3;
+text-decoration: underline;
+}
+</style>
 </head>
 <body>
-  <div class="outer-frame">
-    <h1 class="site-title">スタイル①</h1>
-    <hr class="title-line">
-    <div class="main-image">
-      <img src="../../images/works/style1_main.jpg" alt="スタイル①のメイン画像" style="max-width: 100%;">
-      <p>このスタイルは●●をテーマにしており、背景が重要な構成要素になっています。</p>
-    </div>
-    <div class="gallery-grid">
-      <a href="works/work1.html"><img src="../../images/thumbnails/work1.jpg" alt="作品1" style="width: 100px; height: 100px; border-radius: 50%;"></a>
-      <a href="works/work2.html"><img src="../../images/thumbnails/work2.jpg" alt="作品2" style="width: 100px; height: 100px; border-radius: 50%;"></a>
-    </div>
-    <hr class="bottom-line">
-    <a href="../index.html" class="back-button">ギャラリートップへ</a>
-  </div>
+<div class="outer-frame">
+<h1 class="site-title">Style 1 Gallery</h1>
+<hr class="title-line" />
+
+<div class="main-visual">
+<img src="../images/style1-main.jpg" alt="Main Art Style 1">
+</div>
+
+<p class="style-description">
+A soft and dreamy style inspired by natural light and emotional warmth.
+</p>
+
+<div class="thumbnail-grid">
+<a href="works/work1.html" class="thumb">
+<img src="../images/style1-thumb1.jpg" alt="Work 1">
+</a>
+<a href="works/work2.html" class="thumb">
+<img src="../images/style1-thumb2.jpg" alt="Work 2">
+</a>
+<a href="works/work3.html" class="thumb">
+<img src="../images/style1-thumb3.jpg" alt="Work 3">
+</a>
+<!-- 必要に応じて追加OK -->
+</div>
+
+<div class="back-link">
+<a href="../index.html">← Back to Gallery Top</a>
+</div>
+
+<hr class="bottom-line" />
+</div>
 </body>
 </html>
