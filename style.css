@@ -220,7 +220,7 @@ background-color: #f5f1e8;
 color: #1e2a38;
 }
 
-.read-more-btn {
+.blog-card a.read-more-btn {
 display: inline-block;
 padding: 8px 16px;
 margin-top: 20px;
