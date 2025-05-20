@@ -81,8 +81,8 @@ body {
 .links-box {
   border: 1px solid #ded9c3;
   padding: 1em;
-  width: 100%;
-  max-width: 700px;
+  width: 90%;
+  max-width: 600px;
   text-align: left;
   font-size: 14px;
 }
