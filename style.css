@@ -144,6 +144,57 @@ body {
   color: #ccc;
 }
 
+.blog-entry {
+  text-align: left;
+  max-width: 600px;
+  margin: 2em auto;
+  padding: 0 1em;
+  font-size: 1em;
+  line-height: 1.6;
+}
+
+.blog-entry h1,
+.blog-entry h2,
+.blog-entry h3,
+.blog-entry h4 {
+  color: #ded9c3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.blog-entry p {
+  margin-bottom: 1.2em;
+}
+
+.blog-entry a {
+  color: #ded9c3;
+  text-decoration: underline;
+}
+
+.blog-entry img {
+  max-width: 100%;
+  height: auto;
+  margin: 1.5em 0;
+}
+
+.blog-entry blockquote {
+  border-left: 4px solid #ded9c3;
+  padding-left: 1em;
+  margin: 1em 0;
+  color: #aaa;
+  font-style: italic;
+}
+
+.blog-entry ul,
+.blog-entry ol {
+  padding-left: 1.5em;
+  margin-bottom: 1em;
+}
+
+.blog-entry li {
+  margin-bottom: 0.5em;
+}
+
 /* --- コピーライト --- */
 .copyright {
   font-size: 0.75em;
