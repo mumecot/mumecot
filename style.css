@@ -225,12 +225,8 @@ color: #1e2a38;
   font-size: 0.75em;
   font-family: 'Helvetica', sans-serif;
   color: #888;
+  margin-top: 20px;
 }
-
-.site-footer {
-  margin-top: 60px;
-  text-align: center;
- }
 
 @media screen and (max-width: 600px) {
   .outer-frame {
