@@ -253,6 +253,7 @@ color: #1e2a38;
 
 @media screen and (max-width: 600px) {
   .outer-frame {
+    font-size: 14px;
     padding: 1em;
     margin: 1.5em auto;
   }
