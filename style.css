@@ -210,17 +210,17 @@ display: inline-block;
 padding: 8px 16px;
 margin-top: 20px;
 background-color: #1e2a38;
-color: #f5f1e8;
+color: #ded9c3;
 text-decoration: none;
 font-family: 'Fira Mono', monospace;
 font-size: 14px;
 border-radius: 6px;
-border: 1px solid #f5f1e8;
+border: 1px solid #ded9c3;
 transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .back-button:hover {
-background-color: #f5f1e8;
+background-color: #ded9c3;
 color: #1e2a38;
 }
 
@@ -229,17 +229,17 @@ display: inline-block;
 padding: 8px 16px;
 margin-top: 20px;
 background-color: #1e2a38;
-color: #f5f1e8;
+color: #ded9c3;
 text-decoration: none;
 font-family: 'Fira Mono', monospace;
 font-size: 14px;
 border-radius: 6px;
-border: 1px solid #f5f1e8;
+border: 1px solid #ded9c3;
 transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .read-more-btn:hover {
-background-color: #f5f1e8;
+background-color: #ded9c3;
 color: #1e2a38;
 }
 
