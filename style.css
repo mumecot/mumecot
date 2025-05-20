@@ -133,7 +133,7 @@ body {
 
   .profile-box, 
   .links-box {
-    font-size: 13px;
+    font-size: 12px;
     padding: 0.5em;
   }
 
@@ -144,6 +144,6 @@ body {
   .profile-icon {
     width: 100px;
     height: 100px;
-    margin : 2em auto 0 auto;
+    margin : 1em auto 0 auto;
   }
 }
