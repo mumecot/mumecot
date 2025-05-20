@@ -35,6 +35,8 @@ body {
   width: 80%;
 }
 
+
+
 /* --- ナビゲーション --- */
 .navbar {
   display: flex;
@@ -85,6 +87,37 @@ body {
   font-size: 0.95em;
   color: #ccc;
 }
+
+.blog-entry {
+  margin: 2em 0;
+  text-align: left;
+}
+
+.blog-entry h3 a {
+  color: #ded9c3;
+  text-decoration: none;
+}
+
+.year-links {
+  margin-top: 2em;
+}
+
+.year-links a {
+  color: #ded9c3;
+  margin-right: 1em;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin: 1em 0;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
 
 /* --- コピーライト --- */
 .copyright {
