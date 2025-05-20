@@ -200,6 +200,15 @@ body {
   color: #ccc;
 }
 
+/* --- ボタン --- */
+.back-button {
+  background-color: #0f1923;
+  color: #ded9c3;
+  border: none;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
 /* --- コピーライト --- */
 .copyright {
   font-size: 0.75em;
