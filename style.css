@@ -227,6 +227,11 @@ color: #1e2a38;
   color: #888;
 }
 
+.site-footer {
+  margin-top: 60px;
+  text-align: center;
+ }
+
 @media screen and (max-width: 600px) {
   .outer-frame {
     padding: 1em;
