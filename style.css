@@ -79,12 +79,14 @@ body {
 
 .profile-box, 
 .links-box {
+  background-color: #1f2a38;
   border: 1px solid #ded9c3;
   padding: 1em;
   width: 90%;
   max-width: 600px;
   text-align: left;
   font-size: 14px;
+  border-radius: 5px;
 }
 
 .profile-box h2 {
@@ -124,6 +126,7 @@ body {
   margin-bottom: 1.5em;
   width: 90%;
   max-width: 600px;
+  border-radius: 5px;
 }
 
 .blog-card h2 {
