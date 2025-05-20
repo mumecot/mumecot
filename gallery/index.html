@@ -1,69 +1,109 @@
 <!DOCTYPE html>
-<html lang="ja">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Gallery Top</title>
-  <link rel="stylesheet" href="../css/style.css">
-  <style>
-    .gallery-grid {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 2em;
-    }
-    .style-card {
-      position: relative;
-      width: 220px;
-      height: 220px;
-      overflow: hidden;
-      border: 1px solid #ded9c3;
-    }
-    .style-card img {
-      width: 100%;
-      height: 100%;
-      object-fit: cover;
-      transition: 0.3s;
-    }
-    .style-card:hover img {
-      filter: brightness(50%);
-    }
-    .style-card span {
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      right: 0;
-      color: #ded9c3;
-      background-color: rgba(0,0,0,0.6);
-      padding: 0.5em;
-      font-size: 1em;
-      opacity: 0;
-      transition: 0.3s;
-    }
-    .style-card:hover span {
-      opacity: 1;
-    }
-  </style>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Gallery Top</title>
+<link rel="stylesheet" href="../style.css">
+<link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Indie+Flower&display=swap" rel="stylesheet">
+<style>
+.gallery-style-links {
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+gap: 2em;
+margin-bottom: 2em;
+}
+
+.style-box {
+position: relative;
+width: 200px;
+height: 250px;
+overflow: hidden;
+border-radius: 100px 100px 0 0;
+border: 2px solid #ded9c3;
+background-color: #1f2a38;
+cursor: pointer;
+transition: transform 0.3s ease;
+}
+
+.style-box img {
+width: 100%;
+height: 100%;
+object-fit: cover;
+border-radius: 100px 100px 0 0;
+}
+
+.style-box:hover {
+transform: scale(1.05);
+}
+
+.style-label {
+position: absolute;
+bottom: 0;
+width: 100%;
+background: rgba(15, 25, 35, 0.8);
+color: #ded9c3;
+text-align: center;
+padding: 0.5em;
+font-family: 'Fira Mono', monospace;
+font-size: 1em;
+opacity: 0;
+transition: opacity 0.3s ease;
+}
+
+.style-box:hover .style-label {
+opacity: 1;
+}
+
+.gallery-instruction {
+font-family: 'Indie Flower', cursive;
+font-size: 1.3em;
+color: #ded9c3;
+margin-top: 2em;
+}
+
+@media screen and (max-width: 600px) {
+.style-box {
+width: 100%;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.gallery-style-links {
+flex-direction: column;
+align-items: center;
+}
+}
+</style>
 </head>
 <body>
-  <div class="outer-frame">
-    <h1 class="site-title">Gallery</h1>
-    <hr class="title-line">
-    <div class="gallery-grid">
-      <a href="style1/index.html" class="style-card">
-        <img src="../images/thumbnails/style1.jpg" alt="Style 1">
-        <span>スタイル①</span>
-      </a>
-      <a href="style2/index.html" class="style-card">
-        <img src="../images/thumbnails/style2.jpg" alt="Style 2">
-        <span>スタイル②</span>
-      </a>
-      <a href="style3/index.html" class="style-card">
-        <img src="../images/thumbnails/style3.jpg" alt="Style 3">
-        <span>スタイル③</span>
-      </a>
-    </div>
-    <hr class="bottom-line">
-    <a href="../index.html" class="back-button">ホームに戻る</a>
-  </div>
+<div class="outer-frame">
+<h1 class="site-title">Art Gallery</h1>
+<hr class="title-line" />
+
+<div class="gallery-style-links">
+<a href="style1/index.html" class="style-box">
+<img src="images/style1-main.jpg" alt="Style 1 Art" />
+<div class="style-label">Style 1</div>
+</a>
+
+<a href="style2/index.html" class="style-box">
+<img src="images/style2-main.jpg" alt="Style 2 Art" />
+<div class="style-label">Style 2</div>
+</a>
+
+<a href="style3/index.html" class="style-box">
+<img src="images/style3-main.jpg" alt="Style 3 Art" />
+<div class="style-label">Style 3</div>
+</a>
+</div>
+
+<p class="gallery-instruction">
+Please choose your favorite art style to explore.
+</p>
+
+<hr class="bottom-line" />
+</div>
 </body>
 </html>
