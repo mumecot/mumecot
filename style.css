@@ -74,7 +74,7 @@ body {
   object-fit: cover;
   border-radius: 50%;
   border: 2px solid #ded9c3;
-  margin : 1em auto 0px auto;
+  margin : 1em auto 0 auto;
 }
 
 .profile-box, 
@@ -134,7 +134,7 @@ body {
   .profile-box, 
   .links-box {
     font-size: 13px;
-    padding: 0.8em;
+    padding: 0.5em;
   }
 
   .site-title {
@@ -144,6 +144,6 @@ body {
   .profile-icon {
     width: 100px;
     height: 100px;
-    margin : 0.8em auto 0 auto;
+    margin : 1em auto 0 auto;
   }
 }
