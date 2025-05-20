@@ -144,6 +144,6 @@ body {
   .profile-icon {
     width: 100px;
     height: 100px;
-    margin : 1em auto 0px auto;
+    margin : 0.8em auto 0 auto;
   }
 }
