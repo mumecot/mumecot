@@ -108,6 +108,42 @@ body {
   margin: 0.5em 0;
 }
 
+/* --- ブログ用 --- */
+
+.blog-list {
+  text-align: left;
+  max-width: 700px;
+  margin: 2em auto;
+  padding: 0 1em;
+}
+
+.blog-card {
+  background-color: #1f2a38;
+  border: 1px solid #ded9c3;
+  padding: 1em;
+  margin-bottom: 1.5em;
+  border-radius: 5px;
+}
+
+.blog-card h2 {
+  margin: 0;
+}
+
+.blog-card a {
+  color: #ded9c3;
+  text-decoration: none;
+}
+
+.post-date {
+  font-size: 0.8em;
+  color: #aaa;
+}
+
+.post-summary {
+  font-size: 0.95em;
+  color: #ccc;
+}
+
 /* --- コピーライト --- */
 .copyright {
   font-size: 0.75em;
