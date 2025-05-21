@@ -6,6 +6,16 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+
+  /* --- 星空 --- */
+  background-image:
+  radial-gradient(1px 1px at 20% 30%, #ffffff44, transparent),
+  radial-gradient(1px 1px at 80% 70%, #ffffff33, transparent),
+  radial-gradient(1px 1px at 50% 50%, #ffffff22, transparent),
+  radial-gradient(1px 1px at 60% 20%, #ffffff44, transparent),
+  radial-gradient(1px 1px at 10% 80%, #ffffff33, transparent);
+background-repeat: no-repeat;
+background-size: 100% 100%;
 }
 
 /* --- 全体枠 --- */
