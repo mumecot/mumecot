@@ -286,22 +286,23 @@ justify-content: center;
 text-align: center;
 font-family: 'Noto Serif JP', serif;
 font-size: 1.1em;
-color: #333;
+color: #999;
 gap: 0.5em;
-margin: 0.5em auto;
-opacity: 0.7;
+margin: 0 auto;
+opacity: 1;
+max-width: 500px;
 }
 
 .sub-line::before,
 .sub-line::after {
 content: "";
-flex-grow: 1;
+flex-grow: 0.7;
 height: 4px;
 background-image: radial-gradient(currentColor 1px, transparent 1px);
 background-size: 6px 6px;
 background-repeat: repeat-x;
 background-position: center;
-opacity: 0.5;
+opacity: 1;
 }
 
 .art-frame {
