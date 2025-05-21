@@ -81,10 +81,19 @@ animation: twinkle 3s infinite ease-in-out;
 /* --- インデックス用画像エリア --- */
 .main-image {
   background-color: #1f2a38;
-  padding: 4em;
+  padding: 0;
   border: 1px solid #ded9c3;
-  margin-bottom: 1.5em;
-  font-size: 1.2em;
+  margin: 0 auto 2em auto;
+  max-width: 600px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.main-image img{
+  width: 100%;
+  display: block;
+  height: auto;
+  border: none;
 }
 
 /* --- アバウトページ用 --- */
