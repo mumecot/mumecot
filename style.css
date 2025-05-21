@@ -366,18 +366,6 @@ opacity: 1;
   max-width: 100%;
 }
 
-@media screen and (max-width: 600px) {
-.style-box {
-width: 100%;
-max-width: 300px;
-margin: 0 auto;
-}
-
-.gallery-style-links {
-flex-direction: column;
-align-items: center;
-}
-
 /* --- ボタン --- */
 a.back-button {
 display: inline-block;
@@ -459,4 +447,14 @@ footer.copyright {
     height: 100px;
     margin : 1.5em auto 0 auto;
   }
+
+.style-box {
+width: 100%;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.gallery-style-links {
+flex-direction: column;
+align-items: center;
 }
