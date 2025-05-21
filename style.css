@@ -161,7 +161,7 @@ body {
 .blog-entry h2,
 .blog-entry h3,
 .blog-entry h4 {
-  color: #ccc;
+  color: #ded9c3;
   margin-top: 1.5em;
   margin-bottom: 0.5em;
 }
@@ -171,7 +171,7 @@ body {
 }
 
 .blog-entry a {
-  color: #ccc;
+  color: #ded9c3;
   text-decoration: underline;
 }
 
