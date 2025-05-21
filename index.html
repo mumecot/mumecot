@@ -58,7 +58,7 @@ const numCustomStars = 15;
 
 for (let i = 0; i < numCustomStars; i++) {
 const img = document.createElement('img');
-img.src = 'images/' + starImages[Math.floor(Math.random() * starImages.length)];
+img.src = starImages[Math.floor(Math.random() * starImages.length)];
 img.classList.add('custom-star');
 img.style.top = `${Math.random() * 100}%`;
 img.style.left = `${Math.random() * 100}%`;
