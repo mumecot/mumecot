@@ -264,19 +264,6 @@ color: #ded9c3;
 margin-top: 2em;
 }
 
-@media screen and (max-width: 600px) {
-.style-box {
-width: 100%;
-max-width: 300px;
-margin: 0 auto;
-}
-
-.gallery-style-links {
-flex-direction: column;
-align-items: center;
-}
-}
-
 .title-pair {
 display: flex;
 justify-content: center;
@@ -352,6 +339,18 @@ opacity: 0.5; /* 控えめにしたいとき */
   background-color: #2a3545;
 }
 
+@media screen and (max-width: 600px) {
+.style-box {
+width: 100%;
+max-width: 300px;
+margin: 0 auto;
+}
+
+.gallery-style-links {
+flex-direction: column;
+align-items: center;
+}
+}
 /* --- ボタン --- */
 a.back-button {
 display: inline-block;
