@@ -9,14 +9,6 @@ body {
 }
 
 /* --- 星空 --- */
-.custom-star {
-position: absolute;
-width: 30px;
-pointer-events: none;
-opacity: 0.9;
-transition: transform 0.3s;
-z-index: 0;
-}
 .stars-container {
 position: fixed;
 top: 0;
