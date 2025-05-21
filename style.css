@@ -418,11 +418,13 @@ color: #1e2a38;
 }
 
 /* --- コピーライト --- */
-a.copyright {
+footer.copyright {
   font-size: 0.75em;
   font-family: 'Helvetica', sans-serif;
   color: #888;
   margin-top: 20px;
+  text-align: center;
+  padding: 20px 0;
 }
 
 @media screen and (max-width: 600px) {
