@@ -348,6 +348,7 @@ opacity: 1;
   border: 1px solid  #d6cda7;
   background-color: transparent;
   display: inline-block;
+  max-width: 100%;
 }
 
 /* 内枠（二重ライン） */
@@ -355,12 +356,14 @@ opacity: 1;
   padding: 8px;
   border: 2px solid #c2b684;
   background-color: transparent;
+  max-width: 100%;
 }
 
 /* マット部分（色変更OK） */
 .mat {
   background-color: #1e3042;
   padding: 20px;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 600px) {
