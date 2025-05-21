@@ -285,15 +285,6 @@ body.style-page {
   padding: 0;
 }
 
-.style-page .outer-frame {
-  max-width: 900px;
-  margin: 2em auto;
-  padding: 2em;
-  background-color: #2a3545;
-  border: 1px solid #ded9c3;
-  border-radius: 8px;
-}
-
 .style-title {
   font-size: 2.5em;
   text-align: center;
