@@ -79,6 +79,10 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 /* --- インデックス用画像エリア --- */
+.index-gap {
+  height: 2em;
+  }
+
 .main-image {
   background-color: #1f2a38;
   padding: 0;
