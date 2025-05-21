@@ -265,11 +265,11 @@ margin-top: 2em;
 }
 
 .title-pair {
-display: flex;
-justify-content: center;
-gap: 1em;
-font-size: 1.1em;
-align-items: baseline;
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  font-size: 1.1em;
+  align-items: baseline;
 }
 
 .title-pair .en {
@@ -280,14 +280,28 @@ align-items: baseline;
 }
 
 .sub-line {
-width: 500px; /* 好きな幅に調整OK */
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
+font-family: 'Noto Serif JP', serif;
+font-size: 1.1em;
+color: #333;
+gap: 0.5em;
+margin: 0.5em auto;
+opacity: 0.7;
+}
+
+.sub-line::before,
+.sub-line::after {
+content: "";
+flex-grow: 1;
 height: 4px;
 background-image: radial-gradient(currentColor 1px, transparent 1px);
-background-size: 6px 6px; /* 点と間隔のサイズ */
+background-size: 6px 6px;
 background-repeat: repeat-x;
 background-position: center;
-margin: 0.3em auto; /* 上下の余白・中央揃え */
-opacity: 0.5; /* 控えめにしたいとき */
+opacity: 0.5;
 }
 
 .art-frame {
