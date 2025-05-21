@@ -277,6 +277,86 @@ align-items: center;
 }
 }
 
+body.style-page {
+  background-color: #1f2a38;
+  font-family: 'Yu Mincho', serif;
+  color: #ded9c3;
+  margin: 0;
+  padding: 0;
+}
+
+.outer-frame {
+  max-width: 900px;
+  margin: 2em auto;
+  padding: 2em;
+  background-color: #2a3545;
+  border: 1px solid #ded9c3;
+  border-radius: 8px;
+}
+
+.style-title {
+  font-size: 2.5em;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  color: #ded9c3;
+}
+
+.style-subtitle {
+  text-align: center;
+  font-size: 1.2em;
+  color: #999999;
+  margin-top: 0.2em;
+}
+
+.art-frame {
+  margin: 2em auto;
+  padding: 1em;
+  max-width: 600px;
+  background-color: #eee8dc;
+  border: 4px double #ded9c3;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+  text-align: center;
+}
+
+.main-art {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+}
+
+.style-description {
+  background-color: #1f2a38;
+  border: 1px solid #ded9c3;
+  padding: 1em 1.5em;
+  margin: 2em auto;
+  max-width: 700px;
+  font-size: 1em;
+  line-height: 1.8;
+}
+
+.thumbnail-note {
+  font-size: 0.9em;
+  color: #ccc;
+  text-align: center;
+  margin-top: 2em;
+  margin-bottom: 1em;
+}
+
+.thumbnail-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.thumbnail {
+  width: 120px;
+  height: auto;
+  border: 1px solid #ded9c3;
+  padding: 4px;
+  background-color: #2a3545;
+}
+
 /* --- ボタン --- */
 a.back-button {
 display: inline-block;
