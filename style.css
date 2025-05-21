@@ -277,14 +277,6 @@ align-items: center;
 }
 }
 
-body.style-page {
-  background-color: #1f2a38;
-  font-family: 'Yu Mincho', serif;
-  color: #ded9c3;
-  margin: 0;
-  padding: 0;
-}
-
 .style-title {
   font-size: 2.5em;
   text-align: center;
@@ -302,7 +294,7 @@ body.style-page {
 .art-frame {
   margin: 2em auto;
   padding: 1em;
-  max-width: 600px;
+  max-width: 500px;
   background-color: #eee8dc;
   border: 4px double #ded9c3;
   box-shadow: 0 0 10px rgba(0,0,0,0.3);
@@ -320,8 +312,8 @@ body.style-page {
   border: 1px solid #ded9c3;
   padding: 1em 1.5em;
   margin: 2em auto;
-  max-width: 700px;
-  font-size: 1em;
+  max-width: 500px;
+  font-size: 0.8em;
   line-height: 1.8;
 }
 
