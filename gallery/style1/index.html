@@ -1,102 +1,39 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Style 1 Gallery</title>
+<title>Symbolique Muse</title>
 <link rel="stylesheet" href="../../style.css">
 <link href="https://fonts.googleapis.com/css2?family=Fira+Mono&family=Indie+Flower&display=swap" rel="stylesheet">
-<style>
-.main-visual {
-width: 100%;
-max-width: 600px;
-margin: 2em auto;
-border-radius: 10px;
-overflow: hidden;
-box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
-
-.main-visual img {
-max-width: 100%;
-width: 600px
-height: auto;
-display: block;
-margin: 0 auto;
-}
-
-.style-description {
-text-align: center;
-font-family: 'Indie Flower', cursive;
-font-size: 1.4em;
-color: #ded9c3;
-margin-bottom: 2em;
-}
-
-.thumbnail-grid {
-display: flex;
-flex-wrap: wrap;
-gap: 1.5em;
-justify-content: center;
-margin-bottom: 3em;
-}
-
-.thumb {
-width: 120px;
-height: 120px;
-border-radius: 50%;
-overflow: hidden;
-border: 2px solid #ded9c3;
-transition: transform 0.3s ease;
-}
-
-.thumb:hover {
-transform: scale(1.05);
-}
-
-.thumb img {
-width: 100%;
-height: 100%;
-object-fit: cover;
-}
-
-.back-link {
-text-align: center;
-margin-bottom: 2em;
-}
-
-.back-link a {
-font-family: 'Fira Mono', monospace;
-color: #ded9c3;
-text-decoration: underline;
-}
-</style>
 </head>
+
+
   
 <body>
 <div class="outer-frame">
 <h1 class="site-title">Style 1 Gallery</h1>
 <hr class="title-line" />
 
-<div class="main-visual">
-<img src="../images/style1-main.jpg" alt="Main Art Style 1">
-</div>
+  <h1 class="style-title">Symbolique Muse</h1>
+    <h2 class="style-subtitle">象徴的ミューズ</h2>
 
-<p class="style-description">
-A soft and dreamy style inspired by natural light and emotional warmth.
-</p>
+    <div class="art-frame">
+      <img src="images/sample-art.jpg" alt="メインアート" class="main-art"/>
+    </div>
 
-<div class="thumbnail-grid">
-<a href="works/work1.html" class="thumb">
-<img src="../images/style1-thumb1.jpg" alt="Work 1">
-</a>
-<a href="works/work2.html" class="thumb">
-<img src="../images/style1-thumb2.jpg" alt="Work 2">
-</a>
-<a href="works/work3.html" class="thumb">
-<img src="../images/style1-thumb3.jpg" alt="Work 3">
-</a>
-<!-- 必要に応じて追加OK -->
-</div>
+  <div class="style-description">
+      <p>天体を題材に、内面や物語を象徴する女性像を描いたシリーズです。クラシカルで装飾的なスタイルを特徴としています。</p>
+    </div>
+
+    <p class="thumbnail-note">▼以下のサムネイルをクリックすると作品ページが表示されます。</p>
+
+    <div class="thumbnail-grid">
+      <a href="art1.html"><img src="images/thumb1.jpg" alt="サムネイル1" class="thumbnail"/></a>
+      <a href="art2.html"><img src="images/thumb2.jpg" alt="サムネイル2" class="thumbnail"/></a>
+      <a href="art3.html"><img src="images/thumb3.jpg" alt="サムネイル3" class="thumbnail"/></a>
+    </div>
 
 <div class="back-link">
 <a href="../index.html">← Back to Gallery Top</a>
