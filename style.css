@@ -337,23 +337,31 @@ opacity: 1;
   background-color: #2a3545;
 }
 
-
 .art-frame {
-border: 4px rgba(255, 255, 255, 0.2);
-padding: 2rem;
-margin: 2rem auto;
-background-color: rgba(255, 255, 255, 0.03);
-box-shadow: 
-0 0 0 6px rgba(28, 44, 71, 0.8),
-border-radius: 5px;
-max-width: 90%;
-transition: transform 0.3s ease;
+  max-width: 500px;
+  margin: 0 auto;
 }
 
-.art-frame:hover {
-transform: scale(1.01);
+/* 外枠（細い白ライン） */
+.frame-outer {
+  padding: 6px;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  display: inline-block;
 }
 
+/* 内枠（二重ライン） */
+.frame-inner {
+  padding: 8px;
+  border: 2px solid #ffffff;
+  background-color: transparent;
+}
+
+/* マット部分（色変更OK） */
+.mat {
+  background-color: #001f3f; /* ネイビー。ここを好きな色に変えてOK */
+  padding: 20px;
+}
 
 @media screen and (max-width: 600px) {
 .style-box {
