@@ -151,7 +151,7 @@ body {
 .blog-entry {
   text-align: left;
   max-width: 600px;
-  margin: 2em auto;
+  margin: 2em auto 3em auto;
   padding: 0 1em;
   font-size: 1em;
   line-height: 1.6;
@@ -413,6 +413,12 @@ footer.copyright {
   margin-top: 20px;
   text-align: center;
   padding: 20px 0;
+}
+
+.blog-card footer.copyright {
+  border-top: 1px solid #444;
+  margin-top: 3em;
+  padding-top: 1.5em;
 }
 
 @media screen and (max-width: 600px) {
