@@ -34,6 +34,9 @@ animation: twinkle 3s infinite ease-in-out;
 
 /* --- 全体枠 --- */
 .outer-frame {
+  background-color: #0f1923;
+  position: relative;
+  z-index: 1;
   border: double 6px #ded9c3;
   padding: 2em;
   margin: 3em auto;
