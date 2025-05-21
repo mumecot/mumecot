@@ -298,16 +298,6 @@ background-position: center;
 opacity: 1;
 }
 
-.art-frame {
-  margin: 2em auto;
-  padding: 1em;
-  max-width: 500px;
-  background-color: #eee8dc;
-  border: 4px double #ded9c3;
-  box-shadow: 0 0 10px rgba(0,0,0,0.3);
-  text-align: center;
-}
-
 .main-art {
   max-width: 100%;
   height: auto;
@@ -346,6 +336,26 @@ opacity: 1;
   padding: 4px;
   background-color: #2a3545;
 }
+
+
+.art-frame {
+border: 4px double rgba(255, 255, 255, 0.2); /* クラシカルな縁取り */
+padding: 2rem;
+margin: 2rem auto;
+background-color: rgba(255, 255, 255, 0.03); /* 少しだけ浮かせる */
+box-shadow: 
+0 0 0 6px rgba(28, 44, 71, 0.8), /* 外枠ネイビー系シャドウ */
+0 0 20px rgba(0, 0, 0, 0.3); /* 下に落ちる影で立体感 */
+border-radius: 8px; /* 少し角丸で柔らかく */
+max-width: 90%;
+backdrop-filter: blur(2px); /* 高級感あるぼかし効果（対応ブラウザのみ） */
+transition: transform 0.3s ease;
+}
+
+.art-frame:hover {
+transform: scale(1.01); /* ふわっと反応でギャラリー感UP */
+}
+
 
 @media screen and (max-width: 600px) {
 .style-box {
