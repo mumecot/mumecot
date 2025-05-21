@@ -38,6 +38,8 @@ for (let i = 0; i < numStars; i++) {
 const star = document.createElement("div");
 const size = Math.random() * 2 + 1; //
 const duration = Math.random() * 3 + 2; //
+const colors = ['#f5f3f0', '#ebd978', '#a6c8de', '#edd6ce', '#c7c9d4'];
+star.style.background = colors[Math.floor(Math.random() * colors.length)];
 
 star.classList.add("star");
 star.style.width = `${size}px`;
