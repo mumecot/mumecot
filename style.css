@@ -289,12 +289,7 @@ align-items: baseline;
   font-weight: bold;
   font-size: 2.5em;
   text-align: center;
-  font-family: 'Georgia', serif;
-}
-
-.title-pair .jp {
-color: #777;
-font-style: italic;
+  font-family: 'Cormorant Garamond', serif;
 }
 
 .sub-line {
