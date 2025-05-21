@@ -277,8 +277,8 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-align: center;
-font-family: 'Noto Serif JP', serif;
-font-size: 1.1em;
+font-family: 'Noto Sans JP', serif;
+font-size: 0.9em;
 color: #666;
 gap: 0.5em;
 margin: 0 auto;
@@ -320,12 +320,12 @@ opacity: 1;
   padding: 1em 1.5em;
   margin: 2em auto;
   max-width: 500px;
-  font-size: 0.8em;
+  font-size: 0.9em;
   line-height: 1.8;
 }
 
 .thumbnail-note {
-  font-size: 0.9em;
+  font-size: 0.7em;
   color: #ccc;
   text-align: center;
   margin-top: 2em;
