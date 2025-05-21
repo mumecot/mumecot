@@ -345,7 +345,7 @@ opacity: 1;
 /* 外枠（細い白ライン） */
 .frame-outer {
   padding: 6px;
-  border: 1px solid  #ded9c3;
+  border: 1px solid  #d6cda7;
   background-color: transparent;
   display: inline-block;
 }
@@ -353,13 +353,13 @@ opacity: 1;
 /* 内枠（二重ライン） */
 .frame-inner {
   padding: 8px;
-  border: 2px solid #d6cda7;
+  border: 2px solid #c2b684;
   background-color: transparent;
 }
 
 /* マット部分（色変更OK） */
 .mat {
-  background-color: #4d5161;
+  background-color: #1e3042;
   padding: 20px;
 }
 
