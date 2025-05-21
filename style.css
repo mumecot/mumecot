@@ -297,7 +297,7 @@ font-style: italic;
 }
 
 .sub-line {
-width: 60px; /* 好きな幅に調整OK */
+width: 500px; /* 好きな幅に調整OK */
 height: 4px;
 background-image: radial-gradient(currentColor 1px, transparent 1px);
 background-size: 6px 6px; /* 点と間隔のサイズ */
@@ -307,21 +307,11 @@ margin: 0.5em auto; /* 上下の余白・中央揃え */
 opacity: 0.5; /* 控えめにしたいとき */
 }
 
-
-
-
 .style-title {
   font-size: 2.5em;
   text-align: center;
   font-family: 'Georgia', serif;
   color: #ded9c3;
-}
-
-.style-subtitle {
-  text-align: center;
-  font-size: 1.2em;
-  color: #999999;
-  margin-top: 0.2em;
 }
 
 .art-frame {
