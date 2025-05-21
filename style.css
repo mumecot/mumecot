@@ -266,7 +266,7 @@ margin-top: 2em;
 
 .style-title {
 font-weight: bold;
-font-size: 2.5em;
+font-size: 1.5em;
 text-align: center;
 font-family: 'Cormorant Garamond', serif;
 margin-bottom: 0.2em; /* サブラインとの距離 */
@@ -279,7 +279,7 @@ justify-content: center;
 text-align: center;
 font-family: 'Noto Serif JP', serif;
 font-size: 1.1em;
-color: #999;
+color: #666;
 gap: 0.5em;
 margin: 0 auto;
 opacity: 1;
