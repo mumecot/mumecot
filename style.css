@@ -339,21 +339,19 @@ opacity: 1;
 
 
 .art-frame {
-border: 4px double rgba(255, 255, 255, 0.2); /* クラシカルな縁取り */
+border: 4px solid #ded9c3;
 padding: 2rem;
 margin: 2rem auto;
-background-color: rgba(255, 255, 255, 0.03); /* 少しだけ浮かせる */
+background-color: rgba(255, 255, 255, 0.03);
 box-shadow: 
-0 0 0 6px rgba(28, 44, 71, 0.8), /* 外枠ネイビー系シャドウ */
-0 0 20px rgba(0, 0, 0, 0.3); /* 下に落ちる影で立体感 */
-border-radius: 8px; /* 少し角丸で柔らかく */
+0 0 0 6px rgba(28, 44, 71, 0.8),
+border-radius: 5px;
 max-width: 90%;
-backdrop-filter: blur(2px); /* 高級感あるぼかし効果（対応ブラウザのみ） */
 transition: transform 0.3s ease;
 }
 
 .art-frame:hover {
-transform: scale(1.01); /* ふわっと反応でギャラリー感UP */
+transform: scale(1.01);
 }
 
 
