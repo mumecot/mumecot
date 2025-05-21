@@ -278,7 +278,7 @@ align-items: center;
 }
 
 /* --- ボタン --- */
-.back-button {
+a.back-button {
 display: inline-block;
 padding: 8px 16px;
 margin-top: 20px;
