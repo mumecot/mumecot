@@ -51,21 +51,6 @@ star.style.animationDuration = `${duration}s`;
 
 starContainer.appendChild(star);
 }
-
-// === ② 自作星画像をランダム配置 ===
-const starImages = ['images/star1.svg', 'images/star2.svg', 'images/star3.svg'];
-const numCustomStars = 15;
-
-for (let i = 0; i < numCustomStars; i++) {
-const img = document.createElement('img');
-img.src = starImages[Math.floor(Math.random() * starImages.length)];
-img.classList.add('custom-star');
-img.style.top = `${Math.random() * 100}%`;
-img.style.left = `${Math.random() * 100}%`;
-img.style.width = `${Math.random() * 20 + 10}px`; // サイズ10〜30px
-img.style.opacity = Math.random() * 0.4 + 0.5; // 透明度0.5〜0.9
-starContainer.appendChild(img);
-}
 </script>
 </body>
 </html>
