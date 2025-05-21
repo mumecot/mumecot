@@ -6,19 +6,30 @@ body {
   margin: 0;
   padding: 0;
   text-align: center;
+}
 
-  /* --- 星空 --- */
-background-image: 
-radial-gradient(1px 1px at 10% 20%, #ffffff80 99%, transparent 100%),
-radial-gradient(1px 1px at 30% 40%, #ffffff66 99%, transparent 100%),
-radial-gradient(1px 1px at 50% 60%, #ffffff99 99%, transparent 100%),
-radial-gradient(1px 1px at 70% 30%, #ffffff80 99%, transparent 100%),
-radial-gradient(1px 1px at 80% 70%, #ffffff66 99%, transparent 100%),
-radial-gradient(1px 1px at 90% 90%, #ffffff88 99%, transparent 100%),
-radial-gradient(1px 1px at 20% 80%, #ffffff99 99%, transparent 100%);
+/* --- 星空 --- */
+.stars-container {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+pointer-events: none;
+z-index: -1;
+}
 
-background-repeat: no-repeat;
-background-size: 100% 100%;
+.star {
+position: absolute;
+border-radius: 50%;
+background: white;
+opacity: 0.3;
+animation: twinkle 3s infinite ease-in-out;
+}
+
+@keyframes twinkle {
+0%, 100% { opacity: 0.3; transform: scale(1); }
+50% { opacity: 1; transform: scale(1.5); }
 }
 
 /* --- 全体枠 --- */
