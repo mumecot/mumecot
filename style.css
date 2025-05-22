@@ -7,10 +7,6 @@ body {
   text-align: center;
 }
 
-.jp {
-  font-family: 'Zen Kaku Gothic New', sans-serif;
-}
-
 /* --- 星空 --- */
 .stars-container {
 position: fixed;
@@ -521,6 +517,11 @@ color: #1e2a38;
 .navigation-buttons a:hover {
 background-color: #ded9c3;
 color: #1e2a38;
+}
+
+/* --- 日本語フォント --- */
+.jp {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 /* --- コピーライト --- */
