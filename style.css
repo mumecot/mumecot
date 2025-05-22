@@ -582,6 +582,11 @@ footer.copyright {
     margin : 1.5em auto 0 auto;
   }
 
+  .blog-card {
+    width: calc(100% - 2em);
+    margin: 1.5em auto;
+  }
+
   .style-box {
 width: 100%;
 max-width: 300px;
