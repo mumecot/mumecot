@@ -549,8 +549,9 @@ footer.copyright {
   }
 
   .main-image {
-    margin: 2em 1em;
+    margin: 2em auto;
     border-width: 0.5px;
+    width: clac(100% - 2em);
   }
 
   .profile-box, 
