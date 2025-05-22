@@ -97,7 +97,7 @@ animation: twinkle 3s infinite ease-in-out;
   padding: 0;
   border: 1px solid #ded9c3;
   margin: 3em auto 2em auto;
-  max-width: 650px;
+  max-width: 630px;
   width: 100%;
   box-sizing: border-box;
 }
@@ -544,7 +544,7 @@ footer.copyright {
   }
 
   .main-image {
-    margin: 3em auto 2em auto;
+    margin: 3em auto 1.5em auto;
     border: 1px solid #ded9c3;
     width: calc(100% - 1.5em);
     box-sizing: border-box;
