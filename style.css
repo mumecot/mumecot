@@ -554,9 +554,9 @@ footer.copyright {
     flex-wrap: wrap;
     justify-content: center;
     gap: 1.5em;
-    font-size: 0.9em;
-    margin-top: 1em;
-    margin-bottom: 1.5em;
+    font-size: 1em;
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
   }
 
   hr.title-line,
