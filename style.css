@@ -476,44 +476,36 @@ color: #1e2a38;
 }
 
 .navigation-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5em;
-  flex-wrap: wrap;
-  text-align: center;
-  max-width: 500px;
-  margin: 30px auto 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+max-width: 500px;
+margin: 30px auto 0 auto;
+gap: 0.5em;
 }
 
+/* 共通のボタン */
 .navigation-buttons a {
-  display: inline-block;
-  padding: 8px 16px;
-  margin-top: 20px;
-  background-color: #1e2a38;
-  color: #ded9c3;
-  text-decoration: none;
-  font-family: 'Fira Mono', monospace;
-  font-size: 14px;
-  border-radius: 6px;
-  border: 1px solid #ded9c3;
-  transition: background-color 0.3s ease, color 0.3s ease;
-  white-space: nowrap; /* ← 文字詰まり防止 */
+flex: 1; /*
+min-width: 100px;
+text-align: center;
+padding: 8px 16px;
+background-color: #1e2a38;
+color: #ded9c3;
+text-decoration: none;
+font-family: 'Fira Mono', monospace;
+font-size: 14px;
+border-radius: 6px;
+border: 1px solid #ded9c3;
+transition: background-color 0.3s ease, color 0.3s ease;
+white-space: nowrap;
+margin-top: 20px;
 }
 
-/* 左ボタン */
-.nav-left {
-  margin-right: auto;
-}
-
-/* 中央ボタン */
-.nav-center {
-  margin: 0 auto;
-}
-
-/* 右ボタン */
-.nav-right {
-  margin-left: auto;
+.navigation-buttons a:hover {
+background-color: #ded9c3;
+color: #1e2a38;
 }
 
 /* --- コピーライト --- */
