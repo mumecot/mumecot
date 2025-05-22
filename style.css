@@ -347,6 +347,11 @@ background-position: center;
 opacity: 1;
 }
 
+.sub-line .jp {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+}
+
 .main-art {
   max-width: 100%;
   height: auto;
