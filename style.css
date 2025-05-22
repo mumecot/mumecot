@@ -406,7 +406,7 @@ opacity: 1;
   max-width: 100%;
 }
 
-.art-info {
+.work-info {
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
@@ -414,20 +414,20 @@ opacity: 1;
   font-family: 'Fira Mono', monospace;
 }
 
-.art-info .art-title {
-  font-size: 1em !important;
+.work-info .work-title {
+  font-size: 1em;
   margin: 0;
   font-weight: 600;
 }
 
-.art-info .divider {
+.work-info .work-divider {
   width: 40px;
   margin: 8px auto;
   border: none;
   border-top: 1px solid #aaa;
 }
 
-.art-info .art-description {
+.work-info .work-description {
   font-size: 0.8em;
   margin: 0;
   padding: 0 10px;
