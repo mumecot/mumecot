@@ -445,6 +445,54 @@ background-color: #ded9c3;
 color: #1e2a38;
 }
 
+.navigation-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5em;
+  flex-wrap: wrap;
+}
+
+.navigation-buttons a {
+display: inline-block;
+padding: 8px 16px;
+margin-top: 20px;
+background-color: #1e2a38;
+color: #ded9c3;
+text-decoration: none;
+font-family: 'Fira Mono', monospace;
+font-size: 14px;
+border-radius: 6px;
+border: 1px solid #ded9c3;
+transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navigation-buttons a:hover {
+  background-color: #ded9c3;
+  color: #1e2a38;
+}
+
+/* 左ボタン */
+.nav-left {
+  order: 1;
+  flex: 1;
+  text-align: left;
+}
+
+/* 中央ボタン（中央寄せ） */
+.nav-center {
+  order: 2;
+  flex: 1;
+  text-align: center;
+}
+
+/* 右ボタン */
+.nav-right {
+  order: 3;
+  flex: 1;
+  text-align: right;
+}
+
 /* --- コピーライト --- */
 footer.copyright {
   font-size: 0.75em;
