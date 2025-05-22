@@ -499,6 +499,11 @@ color: #1e2a38;
   white-space: nowrap;
 }
 
+.navigation-buttons:hover {
+background-color: #ded9c3;
+color: #1e2a38;
+}
+
 /* --- コピーライト --- */
 footer.copyright {
   font-size: 0.75em;
