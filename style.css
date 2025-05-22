@@ -133,6 +133,7 @@ animation: twinkle 3s infinite ease-in-out;
   max-width: 600px;
   text-align: left;
   font-size: 14px;
+  color: inherit;
 }
 
 .profile-box h2 {
@@ -145,6 +146,10 @@ animation: twinkle 3s infinite ease-in-out;
   text-decoration: none;
   display: inline-block;
   margin: 0.3em 0;
+}
+
+.profile-box a:hover {
+  color: #f7f4e4;
 }
 
 /* --- ブログ用 --- */
