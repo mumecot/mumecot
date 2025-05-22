@@ -383,7 +383,7 @@ opacity: 1;
 .thumbnail-grid {
   display: flex;
   justify-content: center;
-  gap: 1.5em;
+  gap: 1em;
   flex-wrap: wrap;
   margin-bottom: 2em;
 }
