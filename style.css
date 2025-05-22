@@ -499,7 +499,7 @@ color: #1e2a38;
   white-space: nowrap;
 }
 
-.navigation-buttons:hover {
+.navigation-buttons a:hover {
 background-color: #ded9c3;
 color: #1e2a38;
 }
