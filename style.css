@@ -412,8 +412,8 @@ opacity: 1;
 
 /* 内枠 */
 .frame-inner {
-  padding: 8px;
-  border: 2px solid #c2b684;
+  padding: 12px;
+  border: 1.5px double #c2b684;
   background-color: transparent;
   max-width: 100%;
 }
