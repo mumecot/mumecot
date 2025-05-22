@@ -546,7 +546,7 @@ footer.copyright {
   .main-image {
     margin: 2em auto;
     border: 1px solid #ded9c3;
-    width: calc(100% - 2em);
+    width: calc(100% - 1.5em);
     box-sizing: border-box;
   }
 
@@ -582,7 +582,7 @@ footer.copyright {
   }
 
   .blog-card {
-    width: calc(100% - 2em);
+    width: calc(100% - 1.5em);
     margin: 1.5em auto;
   }
 
