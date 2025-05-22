@@ -325,8 +325,10 @@ font-family: 'Cormorant Garamond', serif;
 margin-bottom: 0;
 }
 
-.style-title h2{
+.style-title h2 {
   margin: 0;
+  line-height: 1;
+  padding: 0;
 }
 
 .sub-line {
