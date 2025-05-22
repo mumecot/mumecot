@@ -401,16 +401,16 @@ opacity: 1;
   margin: 3em auto;
 }
 
-/* 外枠（細い白ライン） */
+/* 外枠 */
 .frame-outer {
   padding: 3px;
-  border: 2px solid  #c2b684;
+  border: 2.5px solid  #c2b684;
   background-color: transparent;
   display: inline-block;
   max-width: 100%;
 }
 
-/* 内枠（二重ライン） */
+/* 内枠 */
 .frame-inner {
   padding: 8px;
   border: 2px solid #c2b684;
