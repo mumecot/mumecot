@@ -607,4 +607,12 @@ footer.copyright {
   .gallery-style-links {
     gap: 2.5em;
   }
+
+  .art-frame {
+    margin: 2em 1.5em;
+  }
+
+  .mat {
+    padding: 16px;
+  }
 }
