@@ -420,13 +420,11 @@ opacity: 1;
 
 /* マット部分 */
 .mat {
-  background-color: #e7e2d6; /* ベース色（任意） */
-  background-image: url('../textures/paper-texture.png'); /* 画像パス */
-  background-size: cover;  /* 全体にフィット */
+  background-image: url("images/mat.png");
+  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-color: #1f2a38;
   padding: 20px;
-  max-width: 100%;
 }
 
 .page-wrapper {
