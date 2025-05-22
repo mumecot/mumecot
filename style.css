@@ -150,8 +150,7 @@ animation: twinkle 3s infinite ease-in-out;
 
 .profile-box a:hover {
   color: #7ca8b8;
-  text-decoration: underline;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 /* --- ブログ用 --- */
