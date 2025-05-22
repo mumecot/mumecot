@@ -479,15 +479,15 @@ color: #1e2a38;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  gap: 0.5em;
   flex-wrap: wrap;
+  text-align: center;
   max-width: 500px;
   margin: 30px auto 0 auto;
-  gap: 0.5em;
 }
 
 .navigation-buttons a {
-  flex: 1;
-  text-align: center;
+  display: inline-block;
   padding: 8px 16px;
   margin-top: 20px;
   background-color: #1e2a38;
@@ -499,7 +499,21 @@ color: #1e2a38;
   border: 1px solid #ded9c3;
   transition: background-color 0.3s ease, color 0.3s ease;
   white-space: nowrap;
-  min-width: 100px;
+}
+
+/* 左ボタン */
+.nav-left {
+  margin-right: auto;
+}
+
+/* 中央ボタン */
+.nav-center {
+  margin: 0 auto;
+}
+
+/* 右ボタン */
+.nav-right {
+  margin-left: auto;
 }
 
 /* --- コピーライト --- */
