@@ -589,7 +589,7 @@ footer.copyright {
   .style-box {
     width: 80%;
     max-width: 300px;
-    height: 220px;
+    height: 240px;
     margin: 0 auto;
   }
 
@@ -601,6 +601,6 @@ footer.copyright {
   }
 
   .gallery-style-links {
-    gap: 1.5em;
+    gap: 2.5em;
   }
 }
