@@ -255,12 +255,22 @@ animation: twinkle 3s infinite ease-in-out;
 
 /* --- ギャラリーセット --- */
 .gallery-style-links {
+position: relative;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
 gap: 2em;
 margin-top: 3em;
 margin-bottom: 2em;
+}
+
+.svg-sign {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 300px;
+  pointer-events: none;
+  z-index: 10;
 }
 
 .style-box {
