@@ -415,7 +415,7 @@ opacity: 1;
 }
 
 .art-info .art-title {
-  font-size: 1em;
+  font-size: 1em !important;
   margin: 0;
   font-weight: 600;
 }
