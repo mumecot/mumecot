@@ -415,14 +415,13 @@ opacity: 1;
 
 .work-info .work-title {
   font-size: 1em;
-  margin-bottom: 4px;
   font-weight: 600;
 }
 
 .work-info .work-divider {
   width: 500px;
   max-width: 90%;
-  margin: 4px auto 8px auto;
+  margin: 2px;
   border: none;
   border-top: 1px solid #999;
 }
