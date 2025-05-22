@@ -11,6 +11,10 @@ body {
   font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
+.en {
+ font-family: 'Fira Mono', monospace;
+}
+
 /* --- 星空 --- */
 .stars-container {
 position: fixed;
