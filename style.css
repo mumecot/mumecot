@@ -405,8 +405,10 @@ opacity: 1;
   max-width: 100%;
 }
 
-.work-info {
-  text-align: center;
+.page-wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 
 .work-info .work-title {
