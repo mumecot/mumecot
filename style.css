@@ -476,36 +476,30 @@ color: #1e2a38;
 }
 
 .navigation-buttons {
-display: flex;
-justify-content: space-between;
-align-items: center;
-flex-wrap: wrap;
-max-width: 500px;
-margin: 30px auto 0 auto;
-gap: 0.5em;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 500px;
+  margin: 30px auto 0 auto;
+  gap: 0.5em;
 }
 
-/* 共通のボタン */
 .navigation-buttons a {
-flex: 1; /*
-min-width: 100px;
-text-align: center;
-padding: 8px 16px;
-background-color: #1e2a38;
-color: #ded9c3;
-text-decoration: none;
-font-family: 'Fira Mono', monospace;
-font-size: 14px;
-border-radius: 6px;
-border: 1px solid #ded9c3;
-transition: background-color 0.3s ease, color 0.3s ease;
-white-space: nowrap;
-margin-top: 20px;
-}
-
-.navigation-buttons a:hover {
-background-color: #ded9c3;
-color: #1e2a38;
+  flex: 1;
+  text-align: center;
+  padding: 8px 16px;
+  margin-top: 20px;
+  background-color: #1e2a38;
+  color: #ded9c3;
+  text-decoration: none;
+  font-family: 'Fira Mono', monospace;
+  font-size: 14px;
+  border-radius: 6px;
+  border: 1px solid #ded9c3;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  white-space: nowrap;
+  min-width: 100px;
 }
 
 /* --- コピーライト --- */
