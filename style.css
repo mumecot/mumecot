@@ -559,17 +559,17 @@ footer.copyright {
     margin-top: 0.8em;
     margin-bottom: 0.8em;
   }
-
+  
   hr.title-line,
   hr.bottom-line {
     width: 100%;
     max-width: none;
   }
 
-  .profile-box, 
+  .profile-box,
   .links-box {
-    font-size: 12px;
-    padding: 0.5em;
+    width: calc(100% - 2em);
+    margin: 1.5em auto;
   }
 
   .site-title {
