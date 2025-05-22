@@ -1,10 +1,14 @@
 body {
   background-color: #0f1923;
   color: #ded9c3;
-  font-family: 'Zen Kaku Gothic New', 'Fira Mono', monospace;
+  font-family: 'Fira Mono', monospace;
   margin: 0;
   padding: 0;
   text-align: center;
+}
+
+.jp {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 /* --- 星空 --- */
