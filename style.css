@@ -524,6 +524,16 @@ background-color: #ded9c3;
 color: #1e2a38;
 }
 
+  .nav-mobile {
+  display: none;
+}
+.nav-desktop {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+}
+
 /* --- コピーライト --- */
 footer.copyright {
   font-size: 0.75em;
@@ -614,5 +624,15 @@ footer.copyright {
 
   .mat {
     padding: 16px;
+  }
+
+  .nav-mobile {
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 1em;
+  }
+  .nav-desktop {
+    display: none;
   }
 }
