@@ -418,9 +418,13 @@ opacity: 1;
   max-width: 100%;
 }
 
-/* マット部分（色変更OK） */
+/* マット部分 */
 .mat {
-  background-color: #1f2a38;
+  background-color: #e7e2d6; /* ベース色（任意） */
+  background-image: url('../textures/paper-texture.png'); /* 画像パス */
+  background-size: cover;  /* 全体にフィット */
+  background-repeat: no-repeat;
+  background-position: center;
   padding: 20px;
   max-width: 100%;
 }
