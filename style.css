@@ -42,6 +42,16 @@ animation: twinkle 3s infinite ease-in-out;
   max-width: 800px;
 }
 
+.outer-frame-light {
+  background-color: #0f1923;
+  position: relative;
+  z-index: 1;
+  border: 1px #ded9c3;
+  padding: 2em;
+  margin: 3em auto;
+  max-width: 800px;
+}
+
 /* --- 共通タイトル・ライン --- */
 .site-title {
   font-size: 2em;
