@@ -322,6 +322,7 @@ font-weight: bold;
 font-size: 1.5em;
 text-align: center;
 font-family: 'Cormorant Garamond', serif;
+margin-bottom: 0.2em;
 }
 
 .sub-line {
@@ -333,7 +334,7 @@ font-family: 'Noto Sans JP', serif;
 font-size: 0.9em;
 color: #666;
 gap: 0.5em;
-margin: 0 auto;
+margin-top: 0;
 opacity: 1;
 max-width: 500px;
 }
