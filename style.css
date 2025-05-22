@@ -405,31 +405,27 @@ opacity: 1;
   max-width: 100%;
 }
 
-.work-info {
-  margin-top: 20px;
-  text-align: center;
-  line-height: 1.5;
-  color: #999;
-  font-family: 'Fira Mono', monospace;
-}
-
 .work-info .work-title {
-  font-size: 1em;
-  font-weight: 600;
+  font-size: 1.2em;
+  margin-bottom: 2px;
+  letter-spacing: 0.05em;
+  font-weight: bold;
 }
 
 .work-info .work-divider {
   width: 500px;
   max-width: 90%;
-  margin: 2px;
+  margin: 2px auto;
   border: none;
-  border-top: 1px solid #999;
+  border-top: 1px dashed #aaa;
 }
 
 .work-info .work-description {
-  font-size: 0.8em;
-  margin: 0;
-  padding: 0 10px;
+  font-size: 0.9em;
+  margin-top: 2px;
+  margin-bottom: 0;
+  padding: 0 15px;
+  line-height: 1.6;
 }
 
 /* --- ボタン --- */
