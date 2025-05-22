@@ -414,20 +414,20 @@ opacity: 1;
   font-family: 'Fira Mono', monospace;
 }
 
-.art-title {
+.art-info .art-title {
   font-size: 1em;
   margin: 0;
   font-weight: 600;
 }
 
-.divider {
+.art-info .divider {
   width: 40px;
   margin: 8px auto;
   border: none;
   border-top: 1px solid #aaa;
 }
 
-.art-description {
+.art-info .art-description {
   font-size: 0.8em;
   margin: 0;
   padding: 0 10px;
