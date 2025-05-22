@@ -605,7 +605,7 @@ footer.copyright {
   }
 
   .sign img {
-    width: 300px;
+    width: calc(100% - 3em);
     height: auto;
   }
 
