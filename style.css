@@ -604,6 +604,11 @@ footer.copyright {
     margin: 1.5em auto;
   }
 
+  .sign img {
+    width: 450px;
+    height: auto;
+  }
+
   .style-box {
     width: 65%;
     max-width: 240px;
