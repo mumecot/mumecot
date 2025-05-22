@@ -382,6 +382,33 @@ opacity: 1;
   margin: 3em auto;
 }
 
+.art-info {
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.art-title {
+  font-size: 1.4em;
+  margin: 0;
+  font-weight: 600;
+}
+
+.divider {
+  width: 40px;
+  margin: 8px auto;
+  border: none;
+  border-top: 1px solid #aaa;
+}
+
+.art-description {
+  font-size: 0.95em;
+  margin: 0;
+  padding: 0 10px;
+}
+
 /* 外枠（細い白ライン） */
 .frame-outer {
   padding: 6px;
