@@ -126,8 +126,7 @@ animation: twinkle 3s infinite ease-in-out;
   margin : 1.5em auto 0 auto;
 }
 
-.profile-box, 
-.links-box {
+.profile-box {
   border: 1px solid #ded9c3;
   padding: 1em;
   width: 90%;
@@ -141,15 +140,11 @@ animation: twinkle 3s infinite ease-in-out;
   font-size: 17px;
 }
 
-.links-box ul {
-  list-style: none;
-  padding: 0;
-}
-
-.links-box a {
+.profile-box a {
   color: #ded9c3;
   text-decoration: none;
   display: inline-block;
+  margin: 0.3em 0;
 }
 
 /* --- ブログ用 --- */
