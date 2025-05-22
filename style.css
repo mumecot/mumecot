@@ -322,7 +322,6 @@ font-weight: bold;
 font-size: 1.5em;
 text-align: center;
 font-family: 'Cormorant Garamond', serif;
-margin-bottom: 0.2em; /* サブラインとの距離 */
 }
 
 .sub-line {
