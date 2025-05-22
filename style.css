@@ -406,30 +406,30 @@ opacity: 1;
 }
 
 .work-info {
-  margin-top: 20px;
-  text-align: center;
-  line-height: 1.5;
-  color: #333;
-  font-family: 'Fira Mono', monospace;
+  margin-top: 20px;
+  text-align: center;
+  line-height: 1.5;
+  color: #333;
+  font-family: 'Fira Mono', monospace;
 }
 
 .work-info .work-title {
-  font-size: 1em;
-  margin: 0;
-  font-weight: 600;
+  font-size: 1em;
+  margin: 0;
+  font-weight: 600;
 }
 
 .work-info .work-divider {
-  width: 40px;
-  margin: 8px auto;
-  border: none;
-  border-top: 1px solid #aaa;
+  width: 40px;
+  margin: 8px auto;
+  border: none;
+  border-top: 1px solid #aaa;
 }
 
 .work-info .work-description {
-  font-size: 0.8em;
-  margin: 0;
-  padding: 0 10px;
+  font-size: 0.8em;
+  margin: 0;
+  padding: 0 10px;
 }
 
 /* --- ボタン --- */
@@ -472,11 +472,11 @@ color: #1e2a38;
 }
 
 .navigation-buttons {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 0.5em;
-  flex-wrap: wrap;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ gap: 0.5em;
+ flex-wrap: wrap;
 }
 
 .navigation-buttons a {
@@ -494,7 +494,7 @@ transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .navigation-buttons a:hover {
-  background-color: #ded9c3;
+ background-color: #ded9c3;
   color: #1e2a38;
 }
 
