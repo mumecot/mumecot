@@ -548,7 +548,7 @@ footer.copyright {
     margin : 1.5em auto 0 auto;
   }
 
-.style-box {
+  .style-box {
 width: 100%;
 max-width: 300px;
 margin: 0 auto;
@@ -568,12 +568,12 @@ align-items: center;
   .navigation-buttons a {
     width: 100%;
     text-align: center;
-    margin-top: 0;
+    margin: 0;
   }
 
   .nav-left,
   .nav-center,
   .nav-right {
-    margin: 0 auto;
+    margin: 0; /* ← auto はやめて完全にリセット */
   }
 }
