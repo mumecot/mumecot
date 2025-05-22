@@ -568,8 +568,7 @@ footer.copyright {
 
   .profile-box,
   .links-box {
-    width: calc(100% - 2em);
-    margin: 1.5em auto;
+    width: calc(100% - 3em);
   }
 
   .site-title {
