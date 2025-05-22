@@ -46,7 +46,7 @@ animation: twinkle 3s infinite ease-in-out;
   background-color: #0f1923;
   position: relative;
   z-index: 1;
-  border: 1px #ded9c3;
+  border: 1px solid #ded9c3;
   padding: 2em;
   margin: 3em auto;
   max-width: 800px;
