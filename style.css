@@ -327,7 +327,7 @@ margin-bottom: 0;
 
 .style-title h2 {
   margin: 0;
-  line-height: 1.4;
+  line-height: 1;
   padding: 0;
 }
 
@@ -340,7 +340,7 @@ font-family: 'Noto Sans JP', serif;
 font-size: 0.9em;
 color: #666;
 gap: 0.5em;
-margin: 0 auto;
+margin: 1em auto 0 auto;
 opacity: 1;
 max-width: 500px;
 }
