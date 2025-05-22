@@ -409,21 +409,22 @@ opacity: 1;
   margin-top: 20px;
   text-align: center;
   line-height: 1.5;
-  color: #333;
+  color: #999;
   font-family: 'Fira Mono', monospace;
 }
 
 .work-info .work-title {
   font-size: 1em;
-  margin: 0;
+  margin-bottom: 4px;
   font-weight: 600;
 }
 
 .work-info .work-divider {
-  width: 40px;
-  margin: 8px auto;
+  width: 500px;
+  max-width: 90%;
+  margin: 4px auto 8px auto;
   border: none;
-  border-top: 1px solid #aaa;
+  border-top: 1px solid #999;
 }
 
 .work-info .work-description {
