@@ -405,12 +405,6 @@ opacity: 1;
   max-width: 100%;
 }
 
-.page-wrapper {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 0 15px;
-}
-
 .work-info .work-title {
   font-size: 1.2em;
   margin-bottom: 2px;
@@ -422,7 +416,7 @@ opacity: 1;
 .work-info .work-divider {
   width: 500px;
   max-width: 90%;
-  margin: 2px auto;
+  margin: 4px auto;
   border: none;
   border-top: 1px dashed #999;
 }
@@ -482,7 +476,7 @@ color: #1e2a38;
   flex-wrap: wrap;
   gap: 1em;
   max-width: 500px;
-  margin: 30px auto 0 auto;
+  margin: 15px auto 0 auto;
 }
 
 .navigation-buttons a {
