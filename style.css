@@ -403,7 +403,7 @@ opacity: 1;
 
 /* 外枠（細い白ライン） */
 .frame-outer {
-  padding: 7px;
+  padding: 6px;
   border: 2px solid  #c2b684;
   background-color: transparent;
   display: inline-block;
@@ -412,7 +412,7 @@ opacity: 1;
 
 /* 内枠（二重ライン） */
 .frame-inner {
-  padding: 8px;
+  padding: 10px;
   border: 2px solid #c2b684;
   background-color: transparent;
   max-width: 100%;
@@ -420,7 +420,7 @@ opacity: 1;
 
 /* マット部分（色変更OK） */
 .mat {
-  background-color: #263442;
+  background-color: #1f2a38;
   padding: 20px;
   max-width: 100%;
 }
