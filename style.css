@@ -254,6 +254,17 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 /* --- ギャラリーセット --- */
+.sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.sign img {
+  max-width: 100%;
+  height: auto;
+}
+
 .gallery-style-links {
 display: flex;
 justify-content: center;
