@@ -258,11 +258,10 @@ animation: twinkle 3s infinite ease-in-out;
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 300px;
 }
 
 .sign img {
-  max-width: 100%;
+  width: 450px;
   height: auto;
 }
 
