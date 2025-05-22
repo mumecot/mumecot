@@ -403,7 +403,7 @@ opacity: 1;
 
 /* 外枠（細い白ライン） */
 .frame-outer {
-  padding: 6px;
+  padding: 7px;
   border: 2px solid  #c2b684;
   background-color: transparent;
   display: inline-block;
