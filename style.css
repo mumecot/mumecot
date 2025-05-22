@@ -405,6 +405,12 @@ opacity: 1;
   max-width: 100%;
 }
 
+.work-info {
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+}
+
 .work-info .work-title {
   font-size: 1.2em;
   margin-bottom: 2px;
