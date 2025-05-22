@@ -7,6 +7,10 @@ body {
   text-align: center;
 }
 
+.jp {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
 /* --- 星空 --- */
 .stars-container {
 position: fixed;
@@ -478,7 +482,7 @@ margin-top: 20px;
 background-color: #1e2a38;
 color: #ded9c3;
 text-decoration: none;
-font-family: 'Fira Mono', monospace;
+font-family: 'Fira Mono', monospace, sans-serif;
 font-size: 14px;
 border-radius: 6px;
 border: 1px solid #ded9c3;
@@ -517,11 +521,6 @@ color: #1e2a38;
 .navigation-buttons a:hover {
 background-color: #ded9c3;
 color: #1e2a38;
-}
-
-/* --- 日本語フォント --- */
-.jp {
-  font-family: 'Zen Kaku Gothic New', sans-serif;
 }
 
 /* --- コピーライト --- */
