@@ -203,6 +203,7 @@ animation: twinkle 3s infinite ease-in-out;
 
 .blog-entry {
   text-align: left;
+  color: #ccc;
   max-width: 600px;
   margin: 2em auto 3em auto;
   padding: 0 1em;
