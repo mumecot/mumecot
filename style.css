@@ -607,6 +607,14 @@ footer.copyright {
     margin: 1.5em auto;
   }
 
+  .post-date {
+  font-size: 0.8em;
+  color: #aaa;
+  width: 90%;
+  margin: 0 auto;
+  text-align: right;
+}
+
   .sign img {
     width: calc(100% - 3em);
     height: auto;
