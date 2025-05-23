@@ -186,6 +186,9 @@ animation: twinkle 3s infinite ease-in-out;
 .post-date {
   font-size: 0.8em;
   color: #aaa;
+  width: 80%;
+  margin: 0 auto;
+  text-align: right;
 }
 
 .post-summary {
