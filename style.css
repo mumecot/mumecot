@@ -402,25 +402,22 @@ opacity: 1;
 .thumbnail {
   width: 50px;
   height: auto;
-  border: 1px solid #ded9c3;
-  padding: 4px;
-  background-color: #2a3545;
   display: block;
 }
 
-/* 追加：サムネイルのラップ */
 .thumbnail-wrap {
   position: relative;
   display: inline-block;
+  border: 1px solid #ded9c3;
+  background-color: #2a3545;
 }
 
-/* 追加：ホバー用オーバーレイ */
 .overlay {
   position: absolute;
-  top: 4px; /* .thumbnail の padding と一致させる */
-  left: 4px;
-  right: 4px;
-  bottom: 4px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   background-color: rgba(0, 0, 0, 0.4);
   color: #fff;
   font-size: 12px;
@@ -429,10 +426,8 @@ opacity: 1;
   justify-content: center;
   opacity: 0;
   transition: opacity 0.3s ease;
-  border-radius: 2px;
 }
 
-/* ホバー時に表示 */
 .thumbnail-wrap:hover .overlay {
   opacity: 1;
 }
