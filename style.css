@@ -186,6 +186,11 @@ animation: twinkle 3s infinite ease-in-out;
 .post-date {
   font-size: 0.8em;
   color: #aaa;
+}
+
+.post-date2 {
+  font-size: 0.8em;
+  color: #aaa;
   width: 80%;
   margin: 0 auto;
   text-align: right;
@@ -607,7 +612,7 @@ footer.copyright {
     margin: 1.5em auto;
   }
 
-  .post-date {
+  .post-date2 {
   font-size: 0.8em;
   color: #aaa;
   width: 90%;
