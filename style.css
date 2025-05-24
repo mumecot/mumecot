@@ -521,6 +521,7 @@ opacity: 1;
 .art-section > .page-wrapper {
   align-self: stretch;
   width: 100%;
+  box-sizing: border-box;
 }
 
 /* --- ボタン --- */
