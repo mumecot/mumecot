@@ -383,6 +383,7 @@ opacity: 1;
   line-height: 1.8;
 }
 
+/* サムネ */
 .thumbnail-note {
   font-size: 0.9em;
   color: #ccc;
@@ -432,12 +433,12 @@ opacity: 1;
   opacity: 1;
 }
 
+/* 額縁デザイン */
 .art-frame {
   max-width: 500px;
   margin: 2em auto 3em auto;
 }
 
-/* 外枠 */
 .frame-outer {
   padding: 3px;
   border: 2.5px solid  #c2b684;
@@ -446,7 +447,6 @@ opacity: 1;
   max-width: 100%;
 }
 
-/* 内枠 */
 .frame-inner {
   padding: 12px;
   border: 1.5px double #c2b684;
@@ -454,7 +454,6 @@ opacity: 1;
   max-width: 100%;
 }
 
-/* マット部分 */
 .mat {
   background-image: url("/image/mat.png");
   background-size: cover;
@@ -463,6 +462,7 @@ opacity: 1;
   padding: 20px;
 }
 
+/* 個別展示＆スクロール */
 .page-wrapper {
   max-width: 500px;
   margin: 0 auto;
