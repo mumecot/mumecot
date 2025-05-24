@@ -471,7 +471,6 @@ opacity: 1;
 .page-wrapper {
   max-width: 500px;
   margin: 0 auto;
-  padding: 0 15px;
 }
 
 .work-info .work-title {
@@ -488,6 +487,7 @@ opacity: 1;
   margin: 5px auto;
   border: none;
   border-top: 1px dashed #999;
+  box-sizing: border-box;
 }
 
 .work-info .work-description {
