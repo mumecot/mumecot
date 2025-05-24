@@ -436,7 +436,7 @@ opacity: 1;
 /* 額縁デザイン */
 .art-frame {
   max-width: 500px;
-  margin: 2em auto 3em auto;
+  margin: 2em auto 2em auto;
 }
 
 .frame-outer {
@@ -463,6 +463,20 @@ opacity: 1;
 }
 
 /* 個別展示＆スクロール */
+.gallery-title-banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5em;   /* 上に余白（額縁とバランスを取る） */
+  margin-bottom: 2em; /* 下も少し余白をつけると自然 */
+}
+
+.title-banner-svg {
+  width: 90%;
+  max-width: 400px;
+  height: auto;
+}
+
 .page-wrapper {
   max-width: 500px;
   margin: 0 auto;
