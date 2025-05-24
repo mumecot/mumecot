@@ -518,6 +518,11 @@ opacity: 1;
   align-items: center;
 }
 
+.art-section > .page-wrapper {
+  align-self: stretch;
+  width: 100%;
+}
+
 /* --- ボタン --- */
 a.back-button {
 display: inline-block;
