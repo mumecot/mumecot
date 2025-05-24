@@ -693,7 +693,11 @@ footer.copyright {
   .gallery-style-links {
     gap: 2.5em;
   }
-
+  
+.title-banner-svg {
+  width: calc(100% - 3em);
+  height: auto;
+}
   .art-frame {
     margin: 2em 1.5em;
   }
