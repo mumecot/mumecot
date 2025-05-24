@@ -467,13 +467,13 @@ opacity: 1;
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 5em;   /* 上に余白（額縁とバランスを取る） */
-  margin-bottom: 2em; /* 下も少し余白をつけると自然 */
+  margin-top: 3em;
+  margin-bottom: 1em; /* 下も少し余白をつけると自然 */
 }
 
 .title-banner-svg {
   width: 90%;
-  max-width: 400px;
+  max-width: 300px;
   height: auto;
 }
 
