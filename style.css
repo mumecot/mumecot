@@ -436,7 +436,7 @@ opacity: 1;
 /* 額縁デザイン */
 .art-frame {
   max-width: 500px;
-  margin: 2em auto 2em auto;
+  margin: 2em auto;
 }
 
 .frame-outer {
@@ -452,14 +452,6 @@ opacity: 1;
   border: 1.5px double #c2b684;
   background-color: transparent;
   max-width: 100%;
-}
-
-.mat {
-  background-image: url("/image/mat.png");
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: #1f2a38;
-  padding: 20px;
 }
 
 /* 個別展示＆スクロール */
@@ -705,10 +697,6 @@ footer.copyright {
 }
   .art-frame {
     margin: 2em 1.5em;
-  }
-
-  .mat {
-    padding: 16px;
   }
 
   .nav-mobile {
