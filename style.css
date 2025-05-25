@@ -690,6 +690,11 @@ footer.copyright {
   width: calc(100% - 3em)
 }
 
+  .thumbnail-note {
+  font-size: 0.8em;
+  width: calc(100% - 3em)
+}
+
   .nav-mobile {
     display: flex;
     justify-content: center;
