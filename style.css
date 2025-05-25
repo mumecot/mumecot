@@ -93,7 +93,6 @@ animation: twinkle 3s infinite ease-in-out;
   margin: 3em auto 2em auto;
   max-width: 630px;
   width: 100%;
-  box-sizing: border-box;
 }
 
 .main-image img{
