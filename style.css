@@ -692,6 +692,7 @@ footer.copyright {
 
   .thumbnail-note {
   font-size: 0.8em;
+  max-width: 400px;
   width: calc(100% - 3em)
 }
 
