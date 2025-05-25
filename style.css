@@ -687,8 +687,8 @@ footer.copyright {
 
   .style-description {
   max-width: 400px;
+  width: calc(100% - 3em)
 }
-
 
   .nav-mobile {
     display: flex;
