@@ -60,14 +60,14 @@ animation: twinkle 3s infinite ease-in-out;
   border: none;
   border-top: 1px solid #ded9c3;
   margin: 20px auto 10px auto;
-  width: 80%;
+  width: 85%;
 }
 
 .bottom-line {
   border: none;
   border-top: 1px solid #ded9c3;
   margin: 10px auto 0 auto;
-  width: 80%;
+  width: 85%;
 }
 
 /* --- ナビゲーション --- */
