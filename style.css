@@ -260,7 +260,7 @@ animation: twinkle 3s infinite ease-in-out;
 display: flex;
 justify-content: center;
 flex-wrap: wrap;
-gap: 2em;
+gap: 1.8em;
 margin-top: 3em;
 margin-bottom: 2em;
 }
