@@ -693,10 +693,9 @@ footer.copyright {
   .thumbnail-note {
     font-size: 0.8em;
     max-width: 400px;
-    width: calc(100% - 3em);
+    width: calc(100% - 5em);
     margin: 0 auto;
   }
-}
 
   .nav-mobile {
     display: flex;
