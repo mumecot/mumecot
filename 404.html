@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 - ページが見つかりません</title>
+  <link rel="stylesheet" href="main.css"> <!-- 共通CSSを使っている場合はこちら -->
+  <style>
+    /* 必要に応じて内蔵CSS（単体運用もできる） */
+    body {
+      background-color: #0f1923;
+      color: #ded9c3;
+      font-family: 'Fira Mono', monospace;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+
+    .outer-frame {
+      background-color: #0f1923;
+      position: relative;
+      z-index: 1;
+      border: double 6px #ded9c3;
+      padding: 2em;
+      margin: 3em auto;
+      max-width: 800px;
+    }
+
+    a.back-button {
+      display: inline-block;
+      padding: 8px 16px;
+      margin-top: 20px;
+      background-color: #1e2a38;
+      color: #ded9c3;
+      text-decoration: none;
+      font-family: 'Fira Mono', monospace;
+      font-size: 14px;
+      border-radius: 6px;
+      border: 1px solid #ded9c3;
+      transition: background-color 0.3s ease, color 0.3s ease;
+    }
+
+    .back-button:hover {
+      background-color: #ded9c3;
+      color: #1e2a38;
+    }
+  </style>
+</head>
+<body>
+  <div class="outer-frame">
+    <h1>404 - このページは存在しません</h1>
+    <p>改装中につきエラーが発生しています。<br>
+      恐れ入りますが、以下のボタンで前のページにお戻りください。</p>
+    <a href="/" class="back-button">トップへ戻る</a>
+  </div>
+</body>
+</html>
