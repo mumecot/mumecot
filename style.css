@@ -726,9 +726,15 @@ footer.copyright {
   }
 
   .update-banner-scroll-wrapper {
-    font-size: 10px;
+    font-size: 12px;
+    padding: 0.2em 1em;
   }
-  
+
+  .update-label.fixed {
+    font-size: 12px;
+    margin-left: -0.8em;
+  }
+    
   .sitemap-image {
     width: calc(100% - 1.5em);
   }
