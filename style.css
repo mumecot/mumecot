@@ -113,7 +113,7 @@ animation: twinkle 3s infinite ease-in-out;
   font-size: 14px;
   text-align: left;
   overflow-y: auto;
-  max-height: 120px; /* 縦スクロール用の高さ上限 */
+  max-height: 110px; /* 縦スクロール用の高さ上限 */
   scrollbar-width: thin;         /* Firefox用 */
   scrollbar-color: #ded9c3 #0f1923;
 }
