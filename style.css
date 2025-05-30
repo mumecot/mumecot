@@ -124,7 +124,7 @@ animation: twinkle 3s infinite ease-in-out;
 .update-label.fixed {
   background-color: #1f2a38;
   color: #ded9c3;
-  padding: 0.45em 1.2em;
+  padding: 0.45em 0em;
   border-radius: 999px;
   font-weight: bold;
   white-space: nowrap;
