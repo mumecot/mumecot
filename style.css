@@ -116,6 +116,7 @@ animation: twinkle 3s infinite ease-in-out;
   max-height: 110px; /* 縦スクロール用の高さ上限 */
   scrollbar-width: auto;
   scrollbar-color: #0f1923;
+  border-radius: 5px;
 }
 
 /* スクロールバー非表示（WebKit用・任意） */
