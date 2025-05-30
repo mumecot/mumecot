@@ -140,7 +140,7 @@ animation: twinkle 3s infinite ease-in-out;
 /* アニメーションの本体 */
 .update-banner-scroll {
   width: max-content;
-  animation: scroll-left 25s linear infinite;
+  animation: scroll-left 30s linear infinite;
   white-space: nowrap;
 }
 
