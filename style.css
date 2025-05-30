@@ -115,7 +115,7 @@ animation: twinkle 3s infinite ease-in-out;
   gap: 0.8em;
   width: 90%;
   max-width: 600px;
-  margin: 1.5em auto;
+  margin: 2em auto;
 }
 
 .update-label {
@@ -135,7 +135,7 @@ animation: twinkle 3s infinite ease-in-out;
 .sitemap-image {
   width: 100%;
   max-width: 600px;
-  margin: 2em auto;
+  margin: 1em auto;
   display: block;
 }
 
@@ -144,16 +144,7 @@ animation: twinkle 3s infinite ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 0.5em;
-}
-
-.profile-icon {
-  width: 100px;
-  height: 100px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 2px solid #ded9c3;
-  margin : 1.5em auto 0 auto;
+  gap: 1.5em;
 }
 
 .profile-box {
