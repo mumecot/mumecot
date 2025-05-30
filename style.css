@@ -731,7 +731,7 @@ footer.copyright {
 /* 左端に固定されるラベル */
 .update-label.fixed {
   padding: 0.5em;
- margin-left: 0em;
+  margin-left: -0.5em;
   font-size: 9px;
 }
 
