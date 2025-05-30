@@ -721,23 +721,23 @@ footer.copyright {
   }
 
   .update-banner-scroll-wrapper {
-    font-size: 12px !important;
-    padding: 0.1em 0.8em !important;
+    font-size: 11px;
+    padding: 0.05em 0.6em; /* ← 縦をもっと狭く、横も少しスマートに */
   }
 
   .update-label.fixed {
-    font-size: 12px !important;
-    padding: 0.3em 0.8em !important;
+    font-size: 11px;
+    padding: 0.25em 0.7em; /* ← ラベルもコンパクトに */
   }
 
   .update-banner-scroll {
-    font-size: 12px !important;
+    font-size: 11px;
   }
 
   .scroll-text,
   .scroll-text time,
   .scroll-text .update-text {
-    font-size: 12px !important;
+    font-size: 11px;
   }
     
   .sitemap-image {
