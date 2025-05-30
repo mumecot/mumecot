@@ -116,7 +116,7 @@ animation: twinkle 3s infinite ease-in-out;
   gap: 0.8em;
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 1.5em auto;
 }
 
 .update-label {
