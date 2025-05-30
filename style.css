@@ -720,26 +720,20 @@ footer.copyright {
     font-size: 1.5em;
   }
 
-  .update-banner-scroll {
-    animation-duration: 25s;
-    font-size: 12px;
-  }
+ .update-banner-scroll-wrapper {
+  font-size: 12px;
+}
 
-  .update-banner-scroll-wrapper {
-    font-size: 12px;
-    padding: 0.2em 1em;
-  }
+.update-banner-scroll {
+  font-size: 12px !important;
+  animation-duration: 25s;
+}
 
-  .update-label.fixed {
-    font-size: 12px;
-    margin-left: -0.8em;
-  }
-
-  .scroll-text,
-  .scroll-text time,
-  .scroll-text .update-text {
-    font-size: 12px;
-  }
+.scroll-text,
+.scroll-text time,
+.scroll-text .update-text {
+  font-size: inherit;
+}
     
   .sitemap-image {
     width: calc(100% - 1.5em);
