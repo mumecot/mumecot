@@ -167,6 +167,10 @@ animation: twinkle 3s infinite ease-in-out;
   border-radius: 5px;
 }
 
+.profile-box p {
+  margin: 0.5em 0;
+}
+
 .profile-box h2 {
   margin-top: 0;
   font-size: 17px;
