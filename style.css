@@ -720,20 +720,21 @@ footer.copyright {
     font-size: 1.5em;
   }
 
- .update-banner-scroll-wrapper {
-  font-size: 12px;
-}
+  .update-banner-scroll-wrapper {
+    font-size: 12px;
+  }
 
-.update-banner-scroll {
-  font-size: 12px !important;
-  animation-duration: 25s;
-}
+  .update-banner-scroll {
+    font-size: 12px !important;
+    animation-duration: 25s;
+    width: auto !important; /* テストで外す */
+  }
 
-.scroll-text,
-.scroll-text time,
-.scroll-text .update-text {
-  font-size: inherit;
-}
+  .scroll-text,
+  .scroll-text time,
+  .scroll-text .update-text {
+    font-size: 12px;
+  }
     
   .sitemap-image {
     width: calc(100% - 1.5em);
