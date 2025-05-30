@@ -719,26 +719,25 @@ footer.copyright {
   .site-title {
     font-size: 1.5em;
   }
-
+  
   .update-banner-scroll-wrapper {
-    font-size: 11px;
-    padding: 0.05em 0.6em; /* ← 縦をもっと狭く、横も少しスマートに */
-  }
+  font-size: 12px;
+  padding: 0.2em 1em;
+  width: calc(100% - 1.5em);
+  margin: 2em auto;
+  gap: 1em;
+}
 
-  .update-label.fixed {
-    font-size: 11px;
-    padding: 0.2em 0.2em; /* ← ラベルもコンパクトに */
-  }
+/* 左端に固定されるラベル */
+.update-label.fixed {
+  padding: 0.45em 1.2em;
+  margin-left: -0.8em;
+}
 
-  .update-banner-scroll {
-    font-size: 11px;
-  }
-
-  .scroll-text,
-  .scroll-text time,
-  .scroll-text .update-text {
-    font-size: 11px;
-  }
+/* スクロール部分のエリア */
+.update-banner-scroll-area {
+  flex: 1; /* ラベルの隣に残り全部使う */
+}
     
   .sitemap-image {
     width: calc(100% - 1.5em);
