@@ -722,6 +722,12 @@ footer.copyright {
 
   .update-banner-scroll-wrapper {
     font-size: 12px !important;
+    padding: 0.1em 0.8em !important;
+  }
+
+  .update-label.fixed {
+    font-size: 12px !important;
+    padding: 0.3em 0.8em !important;
   }
 
   .update-banner-scroll {
