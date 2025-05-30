@@ -731,12 +731,12 @@ footer.copyright {
 /* 左端に固定されるラベル */
 .update-label.fixed {
   padding: 0.45em 1.2em;
-  margin-left: 0em;
+  margin-left: -0.1em;
   font-size: 9px;
 }
 
 .update-banner-scroll-area {
-  flex: 1; /* ラベルの隣に残り全部使う */
+  flex: 1;
 }
     
   .sitemap-image {
