@@ -160,7 +160,6 @@ animation: twinkle 3s infinite ease-in-out;
   }
 }
 
-
 .sitemap-image {
   width: 100%;
   max-width: 600px;
@@ -723,6 +722,7 @@ footer.copyright {
 
   .update-banner-scroll {
     animation-duration: 25s;
+    font-size: 12px;
   }
 
   .update-banner-scroll-wrapper {
