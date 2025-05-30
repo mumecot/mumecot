@@ -721,19 +721,18 @@ footer.copyright {
   }
 
   .update-banner-scroll-wrapper {
-    font-size: 12px;
+    font-size: 12px !important;
+    background-color: yellow !important;  /* これで変わったかどうか見てみよう */
   }
 
   .update-banner-scroll {
     font-size: 12px !important;
-    animation-duration: 25s;
-    width: auto !important; /* テストで外す */
   }
 
   .scroll-text,
   .scroll-text time,
   .scroll-text .update-text {
-    font-size: 12px;
+    font-size: 12px !important;
   }
     
   .sitemap-image {
