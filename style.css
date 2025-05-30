@@ -144,7 +144,7 @@ animation: twinkle 3s infinite ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5em;
+  gap: 0.5em;
 }
 
 .profile-icon {
@@ -170,10 +170,23 @@ animation: twinkle 3s infinite ease-in-out;
 .profile-box h2 {
   margin-top: 0;
   font-size: 17px;
+  display: none;
 }
 
-.profile-box h2 {
-  display: none;
+.profile-heading {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  gap: 0.5em;
+  width: 90%;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.heading-icon {
+  width: 1.2em;
+  height: 1.2em;
 }
 
 .profile-box a {
