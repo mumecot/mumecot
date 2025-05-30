@@ -735,7 +735,9 @@ footer.copyright {
     margin-left: -0.8em;
   }
 
-  .scroll-text {
+  .scroll-text,
+  .scroll-text time,
+  .scroll-text .update-text {
     font-size: 12px;
   }
     
