@@ -141,7 +141,7 @@ animation: twinkle 3s infinite ease-in-out;
 
 .about-line {
   border: none;
-  border-top: 1px dotted #666;
+  border-top: 1px solid #666;
   width: 100%;
   max-width: 600px;
   margin: 0.3em 0;
