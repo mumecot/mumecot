@@ -172,6 +172,10 @@ animation: twinkle 3s infinite ease-in-out;
   font-size: 17px;
 }
 
+.profile-box h2 {
+  display: none;
+}
+
 .profile-box a {
   color: #ded9c3;
   text-decoration: none;
