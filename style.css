@@ -120,6 +120,10 @@ animation: twinkle 3s infinite ease-in-out;
   gap: 1em;
 }
 
+.update-banner-scroll time {
+  font-weight: bold;
+}
+
 /* 左端に固定されるラベル */
 .update-label.fixed {
   background-color: #1f2a38;
