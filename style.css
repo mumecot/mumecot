@@ -113,15 +113,17 @@ animation: twinkle 3s infinite ease-in-out;
   font-family: 'Zen Kaku Gothic New', sans-serif;
   font-size: 16px;
   font-weight: 500;
-  gap: 0.6em;
+  gap: 0.8em;
 }
 
 .update-label {
   background-color: #1f2a38;
   color: #ded9c3;
-  padding: 0.3em 0.8em;
+  padding: 0.45em 1.2em;
   border-radius: 999px;
   font-weight: bold;
+  line-height: 1;
+  margin-left: -0.5em; /* ←これで左に突き出す */
 }
 
 .update-text {
