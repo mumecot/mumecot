@@ -137,10 +137,6 @@ animation: twinkle 3s infinite ease-in-out;
   flex: 1; 
 }
 
-.update-banner-scroll time {
-  font-weight: 550;
-}
-
 /* アニメーションの本体 */
 .update-banner-scroll {
   width: max-content;
