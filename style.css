@@ -730,9 +730,9 @@ footer.copyright {
 
 /* 左端に固定されるラベル */
 .update-label.fixed {
-  padding: 1em 1.3em;
+  padding: 0.8em 1.3em;
   margin-left: -0.5em;
-  font-size: 9px;
+  font-size: 12px;
 }
 
 .update-banner-scroll-area {
