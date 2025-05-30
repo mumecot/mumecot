@@ -736,7 +736,7 @@ footer.copyright {
 
 /* スクロール部分のエリア */
 .update-banner-scroll-area {
-  flex: 0; /* ラベルの隣に残り全部使う */
+  flex: 1; /* ラベルの隣に残り全部使う */
 }
     
   .sitemap-image {
