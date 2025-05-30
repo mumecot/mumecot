@@ -727,7 +727,7 @@ footer.copyright {
 
   .update-label.fixed {
     font-size: 11px;
-    padding: 0.25em 0.7em; /* ← ラベルもコンパクトに */
+    padding: 0.2em 0.2em; /* ← ラベルもコンパクトに */
   }
 
   .update-banner-scroll {
