@@ -146,18 +146,6 @@ animation: twinkle 3s infinite ease-in-out;
   margin: 0;
 }
 
-/* スクロール中に影を追加 */
-.notice-list::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 1.5em;
-  background: linear-gradient(to bottom, transparent, #0f1923);
-  pointer-events: none;
-}
-
 .notice-list li {
   margin-bottom: 0.5em;
   line-height: 1.4;
