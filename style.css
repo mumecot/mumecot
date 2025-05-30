@@ -144,7 +144,7 @@ animation: twinkle 3s infinite ease-in-out;
   border-top: 1px solid #666;
   width: 100%;
   max-width: 600px;
-  margin: 0.3em 0;
+  margin: 0.3em auto 0.1em auto;
 }
 
 /* --- プロフィール --- */
