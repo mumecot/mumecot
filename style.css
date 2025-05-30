@@ -115,7 +115,7 @@ animation: twinkle 3s infinite ease-in-out;
   overflow-y: auto;
   max-height: 100px; /* 縦スクロール用の高さ上限 */
   scrollbar-width: thin;         /* Firefox用 */
-  scrollbar-color: #ded9c3 #0f1923;
+  scrollbar-color: #ded9c3 #1f2a38;
 }
 
 /* スクロールバー非表示（WebKit用・任意） */
