@@ -150,6 +150,12 @@ animation: twinkle 3s infinite ease-in-out;
   white-space: nowrap;
 }
 
+.scroll-text::after {
+  content: '';
+  display: inline-block;
+  width: 100px; /* この長さで「余白の長さ」を調整できる */
+}
+
 /* スクロールアニメーション */
 @keyframes scroll-left {
   0% {
