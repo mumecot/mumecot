@@ -721,6 +721,14 @@ footer.copyright {
     font-size: 1.5em;
   }
 
+    .update-banner-scroll {
+    animation-duration: 25s;
+  }
+
+  .update-banner-scroll-wrapper {
+    font-size: 13px;
+  }
+  
   .sitemap-image {
     width: calc(100% - 1.5em);
   }
