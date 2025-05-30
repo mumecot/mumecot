@@ -103,34 +103,62 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 /* --- アバウトページ用 --- */
-.update-banner {
+/* ラッパー全体 */
+.update-banner-scroll-wrapper {
   display: flex;
   align-items: center;
   background-color: #ded9c3;
   color: #1f2a38;
-  padding: 0.2em 0.8em;
-  border-radius: 999px;
   font-size: 14px;
   font-weight: 500;
-  gap: 0.8em;
+  padding: 0.2em 1em;
+  border-radius: 999px;
   width: 90%;
   max-width: 600px;
   margin: 2em auto;
+  overflow: hidden;
+  gap: 1em;
 }
 
-.update-label {
+/* 左端に固定されるラベル */
+.update-label.fixed {
   background-color: #1f2a38;
   color: #ded9c3;
   padding: 0.45em 1.2em;
   border-radius: 999px;
   font-weight: bold;
-  line-height: 1;
-  margin-left: -0.5em;
+  white-space: nowrap;
 }
 
-.update-text {
-  font-weight: 400;
+/* スクロール部分のエリア */
+.update-banner-scroll-area {
+  overflow: hidden;
+  flex: 1; /* ラベルの隣に残り全部使う */
 }
+
+/* アニメーションの本体 */
+.update-banner-scroll {
+  width: max-content;
+  animation: scroll-left 20s linear infinite;
+  white-space: nowrap;
+}
+
+/* 中のテキスト */
+.scroll-text {
+  display: inline-block;
+  white-space: nowrap;
+}
+
+/* スクロールアニメーション */
+@keyframes scroll-left {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
 
 .sitemap-image {
   width: 100%;
