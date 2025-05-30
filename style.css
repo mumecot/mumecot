@@ -103,57 +103,29 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 /* --- アバウトページ用 --- */
-.notice-box {
-  background-color: #1f2a38;
-  border: 1px solid #ded9c3;
-  padding: 1em;
-  width: 90%;
-  max-width: 600px;
-  margin: 0 auto 2em auto;
-  font-size: 12px;
-  text-align: left;
-  overflow-y: scroll;
-  max-height: 110px; /* 縦スクロール用の高さ上限 */
-  scrollbar-width: auto;
-  scrollbar-color: #0f1923;
-}
-
-/* （WebKit用・任意） */
-.notice-box::-webkit-scrollbar {
-  width: 8px;
-}
-.notice-box::-webkit-scrollbar-thumb {
+.update-banner {
+  display: inline-flex;
+  align-items: center;
   background-color: #ded9c3;
-  border-radius: 3px;
-}
-.notice-box::-webkit-scrollbar-track {
-  background-color: #0f1923;
-}
-
-.notice-title {
-  font-size: 16px;
-  font-weight: bold;
-  margin-top: 0;
+  color: #1f2a38;
+  padding: 0.5em 1em;
+  border-radius: 999px;
   font-family: 'Zen Kaku Gothic New', sans-serif;
-  margin-bottom: 0.5em;
+  font-size: 16px;
+  font-weight: 500;
+  gap: 0.6em;
 }
 
-.notice-list {
-  padding-right: 1em;
-  position: relative;
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.notice-list li {
-  margin-bottom: 0.5em;
-  line-height: 1.4;
-}
-
-.notice-list time {
+.update-label {
+  background-color: #1f2a38;
+  color: #ded9c3;
+  padding: 0.3em 0.8em;
+  border-radius: 999px;
   font-weight: bold;
-  margin-right: 0.3em;
+}
+
+.update-text {
+  font-weight: 400;
 }
 
 /* --- プロフィール --- */
