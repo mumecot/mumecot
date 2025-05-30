@@ -121,7 +121,7 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 .update-banner-scroll time {
-  font-weight: bold;
+  font-weight: 600;
 }
 
 /* 左端に固定されるラベル */
@@ -138,7 +138,7 @@ animation: twinkle 3s infinite ease-in-out;
 /* スクロール部分のエリア */
 .update-banner-scroll-area {
   overflow: hidden;
-  flex: 1; /* ラベルの隣に残り全部使う */
+  flex: 1; 
 }
 
 /* アニメーションの本体 */
