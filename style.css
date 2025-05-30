@@ -112,15 +112,15 @@ animation: twinkle 3s infinite ease-in-out;
   margin: 0 auto 2em auto;
   font-size: 14px;
   text-align: left;
-  overflow-y: auto;
+  overflow-y: scroll;
   max-height: 110px; /* 縦スクロール用の高さ上限 */
-  scrollbar-width: thin;         /* Firefox用 */
+  scrollbar-width: auto;
   scrollbar-color: #ded9c3 #0f1923;
 }
 
 /* スクロールバー非表示（WebKit用・任意） */
 .notice-box::-webkit-scrollbar {
-  width: 7px;
+  width: 9px;
 }
 .notice-box::-webkit-scrollbar-thumb {
   background-color: #ded9c3;
