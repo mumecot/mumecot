@@ -175,12 +175,6 @@ animation: twinkle 3s infinite ease-in-out;
   margin: 0.5em 0;
 }
 
-.profile-box h2 {
-  margin-top: 0;
-  font-size: 17px;
-  display: none;
-}
-
 .profile-heading {
   display: flex;
   align-items: center;
