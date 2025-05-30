@@ -123,7 +123,7 @@ animation: twinkle 3s infinite ease-in-out;
   width: 8px;
 }
 .notice-box::-webkit-scrollbar-thumb {
-  background-color: #ded9c3;
+  background-color: #0f1923;
   border-radius: 3px;
 }
 .notice-box::-webkit-scrollbar-track {
