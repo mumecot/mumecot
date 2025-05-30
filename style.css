@@ -169,7 +169,7 @@ animation: twinkle 3s infinite ease-in-out;
 .sitemap-image {
   width: 100%;
   max-width: 600px;
-  margin: 0.5 auto;
+  margin: 0.5em auto;
   display: block;
 }
 
