@@ -103,40 +103,6 @@ animation: twinkle 3s infinite ease-in-out;
 }
 
 /* --- アバウトページ用 --- */
-.notice-history {
-  background-color: #0f1923;
-  color: #ded9c3;
-  width: 90%;
-  max-width: 600px;
-  padding: 1.5em;
-  border-left: 4px solid #ded9c3;
-  margin: 0 auto;
-  box-sizing: border-box;
-}
-
-.notice-history h2 {
-  font-size: 1.2em;
-  margin-bottom: 0.5em;
-  display: flex;
-  align-items: center;
-  gap: 0.5em;
-}
-
-.notice-history ul {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
-}
-
-.notice-history li {
-  margin-bottom: 0.75em;
-  line-height: 1.5;
-}
-
-.notice-history time {
-  font-weight: bold;
-  margin-right: 0.5em;
-}
 
 
 /* --- プロフィール --- */
