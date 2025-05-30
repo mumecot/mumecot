@@ -156,6 +156,10 @@ animation: twinkle 3s infinite ease-in-out;
   padding-top: 2.5em;
 }
 
+.main-image .profile-section {
+  padding-top: 0.5em;
+}
+
 .profile-box {
   border: 1px solid #ded9c3;
   padding: 1em;
