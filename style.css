@@ -144,7 +144,8 @@ animation: twinkle 3s infinite ease-in-out;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 1.5em;
+  gap: 0.5em;
+  padding-top: 2.5em;
 }
 
 .profile-box {
@@ -171,7 +172,7 @@ animation: twinkle 3s infinite ease-in-out;
   gap: 0.5em;
   width: 90%;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto 0.5em;
   text-align: left;
 }
 
