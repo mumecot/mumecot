@@ -20,11 +20,7 @@ img {
   user-select: none;
 }
 
-img.allow-save {
-  pointer-events: auto;
-  user-select: auto;
-}
-
+img.allow-save,
 img.popup-trigger {
   pointer-events: auto;
   user-select: auto;
