@@ -854,7 +854,6 @@ footer.copyright {
     justify-content: flex-end;
   }
 
-@media (max-width: 768px) {
   .popup {
     top: 15%;
     width: 90%;
