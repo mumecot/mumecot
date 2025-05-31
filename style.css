@@ -846,8 +846,8 @@ footer.copyright {
   }
 
     .popup {
-    top: 3%;
-    width: 95%;
+    top: 15%;
+    width: 90%;
     height: 50vh;
   }
 
@@ -858,6 +858,12 @@ footer.copyright {
   .popup-content iframe {
     height: 100%;
   }
+
+.close-btn {
+  font-size: 2em;
+}
+
+  
 
   .profile-box,
   .links-box {
