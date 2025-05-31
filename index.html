@@ -7,7 +7,7 @@
   <link rel="icon" type="image/png" href="/main_images/favicon.png">
   <title>MUMECOT</title>
   <link rel="stylesheet" href="style.css" />
-  <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&display=swap" rel="stylesheet">
+ <link href="https://fonts.googleapis.com/css2?family=Fira+Mono:wght@400;700&family=Zen+Kaku+Gothic+New&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -23,9 +23,70 @@
 </nav>
         <hr class="bottom-line">
 
-    <div class="main-image">
-  <div class="profile-section">
-    <img src="main_images/index.webp" width=100% alt="メイン画像" />
+<div class="main-image">
+  <img src="main_images/index.webp" alt="メイン画像" />
+</div>
+
+<div class="index-icon-box">
+  <img src="main_images/index_icon_01.svg" alt="Message" class="index-icon popup-trigger" data-target="miniWindow">
+  <img src="main_images/index_icon_02.svg" alt="Banner" class="index-icon popup-trigger" data-target="bannerWindow">
+ <img src="main_images/index_icon_03.svg" alt="BGM" class="index-icon popup-trigger" data-target="bgmWindow">
+</div>
+
+
+<!-- メッセージ用ミニウィンドウ -->
+<div id="miniWindow" class="popup">
+  <div class="popup-content">
+    <span class="close-btn" id="closePopup">&times;</span>
+    <!-- Googleフォーム -->
+    <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScEh0KBwaBXCt-v6seLp3pXElUjmTecf5vSjcx6kAGAJ4q3tg/viewform?embedded=true" width="100%" height="500" frameborder="0" marginheight="0" marginwidth="0">読み込んでいます…</iframe>
+  </div>
+</div>
+
+<!-- バナー用ミニウィンドウ -->
+<div id="bannerWindow" class="popup">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+
+    <div class="banner">
+      <h2 class="jp">バナーのご利用案内<br><span class="en">Site Banner Guide</span></h2>
+
+      <img src="main_images/mumecot_banner1.png" alt="当サイトのバナー画像" class="banner-large" />
+      <img src="main_images/mumecot_banner2.png" alt="当サイトのバナー画像" class="banner-small" />
+
+      <p class="note jp">
+       ※バナーをご利用の際は、画像を一度保存してからご自身のサーバーにアップロードしてください。直リンク（このページのURLを直接貼る形）はご遠慮ください。
+       クレジット表記は任意ですが、再配布・改変はお控えください。
+      </p>
+      <p class="jp">
+        <small>リンク先は下記のURLへお願いいたします。<br>https://www.mumecot.com</small>
+      </p>
+    </div>
+
+  </div>
+</div>
+
+<!-- BGM用ミニウィンドウ -->
+<div id="bgmWindow" class="popup">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+ <p class="bgm-description jp">
+  本サイトではPCユーザー向けに、<br>
+  【BGM専用ウィンドウ】のご用意がございます。<br>
+  サイトを閲覧しながら音楽をお楽しみいただけます。
+</p>
+<p class="bgm-description jp">
+  ご希望の方は、以下のボタンより<br>
+  別ウィンドウでBGMページを開いてください。
+</p>
+
+    <a href="bgm.html" target="_blank" class="bgm-button jp">♫ BGMページを開く</a>
+
+    <p class="note jp">
+      ※PCユーザー向けの機能です。<br>
+      スマートフォンでは正常に動作しない場合があります。<br>
+      一部ブラウザや環境ではウィンドウが開かないことがあります。
+    </p>
   </div>
 </div>
 
@@ -38,5 +99,6 @@ All rights reserved.
 
 <div id="stars-container"></div>
 <script src="js/stars.js" defer></script>
+<script src="js/popup.js"></script>
 </body>
 </html>

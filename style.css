@@ -85,25 +85,126 @@ animation: twinkle 3s infinite ease-in-out;
   font-size: 1.1em;
 }
 
-/* --- インデックス用画像エリア --- */
+/* --- インデックス画像エリア --- */
 .main-image {
   background-color: #1f2a38;
   padding: 0;
   border: 1px solid #ded9c3;
-  margin: 3em auto 2em auto;
+  margin: 3em auto 1em auto; 
   max-width: 600px;
   width: 100%;
+  text-align: center;
 }
 
-.main-image img{
+.main-image img {
   width: 100%;
   display: block;
   height: auto;
   border: none;
+  margin: 0;
 }
 
-/* --- アバウトページ用 --- */
-/* ラッパー全体 */
+.index-icon-box {
+  max-width: 600px;
+  margin: 0 auto 2em auto;
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+}
+
+.index-icon {
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  border-radius: 50%;
+  transition: border-color 0.3s ease, transform 0.3s ease;
+  display: block;
+  border: none;
+}
+
+.index-icon:hover {
+  border: 1.2px solid #ded9c3;
+  transform: scale(1.1);
+}
+
+.popup {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #0d1b2a;
+  border: 1px solid #ded9c3;
+  padding: 10px;
+  z-index: 1000;
+  display: none;
+  max-width: 500px;
+  width: 90%;
+  height: auto;
+}
+
+.popup-content {
+  position: relative;
+  padding: 1.5em;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 10px;
+  background: transparent;
+  border: none;
+  color: #ded9c3;
+  font-size: 1.7em;
+  cursor: pointer;
+}
+
+.banner-large {
+  width: 200px;
+  height: auto;
+  border: 1px solid #ded9c3;
+}
+
+.banner-small {
+  width: 88px;
+  height: auto;
+  border: 1px solid #ded9c3;
+}
+
+.banner .en {
+  font-weight: 300;
+  font-style: normal;
+  letter-spacing: 0.03em;
+  font-size: 0.8em;
+}
+
+.bgm-description {
+  font-size: 14px;
+}
+
+.bgm-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ded9c3;
+  color: #1f2a38;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.bgm-button:hover {
+  background-color: #5ababa;
+}
+
+.popup-content .note {
+  font-size: 12px;
+  color: #999;
+  margin-top: 1em;
+  line-height: 1.5;
+}
+
+/* --- アバウト --- */
+/* 全体 */
 .update-banner-scroll-wrapper {
   display: flex;
   align-items: center;
@@ -120,7 +221,7 @@ animation: twinkle 3s infinite ease-in-out;
   gap: 1em;
 }
 
-/* 左端に固定されるラベル */
+/* 左固定ラベル */
 .update-label.fixed {
   background-color: #1f2a38;
   color: #ded9c3;
@@ -131,13 +232,13 @@ animation: twinkle 3s infinite ease-in-out;
   margin-left: -0.8em;
 }
 
-/* スクロール部分のエリア */
+/* スクロール部分 */
 .update-banner-scroll-area {
   overflow: hidden;
   flex: 1; 
 }
 
-/* アニメーションの本体 */
+/* アニメーション本体 */
 .update-banner-scroll {
   width: max-content;
   animation: scroll-left 35s linear infinite;
@@ -153,7 +254,7 @@ animation: twinkle 3s infinite ease-in-out;
 .scroll-text::after {
   content: '';
   display: inline-block;
-  width: 100px; /* この長さで「余白の長さ」を調整できる */
+  width: 100px;
 }
 
 /* スクロールアニメーション */
@@ -237,7 +338,7 @@ animation: twinkle 3s infinite ease-in-out;
   font-weight: 600;
 }
 
-/* --- ブログ用 --- */
+/* --- ブログ --- */
 
 .blog-list {
   text-align: left;
@@ -335,7 +436,7 @@ animation: twinkle 3s infinite ease-in-out;
   margin-bottom: 0.5em;
 }
 
-/* --- ギャラリーセット --- */
+/* --- ギャラリー --- */
 .sign {
   display: flex;
   justify-content: center;
@@ -537,7 +638,7 @@ opacity: 1;
   justify-content: center;
   align-items: center;
   margin-top: 3em;
-  margin-bottom: 1em; /* 下も少し余白をつけると自然 */
+  margin-bottom: 1em;
 }
 
 .title-banner-svg {
@@ -581,7 +682,7 @@ opacity: 1;
 }
 
 .art-section {
-  margin-bottom: 3em; /* 各作品の間に余白 */
+  margin-bottom: 3em;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -734,7 +835,7 @@ footer.copyright {
   gap: 1em;
 }
 
-/* 左端に固定されるラベル */
+/* 左固定ラベル */
 .update-label.fixed {
   padding: 0.5em 1.3em;
   margin-left: -0.5em;
