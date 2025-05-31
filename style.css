@@ -880,6 +880,11 @@ footer.copyright {
     font-size: 2em;
   }
 
+  .bgm-description {
+  font-size: 13px;
+  margin-bottom: 1em;
+}
+
   .profile-box,
   .links-box {
     width: calc(100% - 1.5em);
