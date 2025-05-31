@@ -803,7 +803,7 @@ footer.copyright {
   .outer-frame {
     font-size: 14px;
     padding: 1em;
-    margin: 1.5em auto;
+    margin: 3em auto 1.5em auto;
   }
 
   .main-image {
