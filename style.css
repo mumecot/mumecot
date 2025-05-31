@@ -845,25 +845,31 @@ footer.copyright {
     justify-content: flex-end;
   }
 
-    .popup {
+@media (max-width: 768px) {
+  .popup {
     top: 15%;
     width: 90%;
     height: 50vh;
+    overflow: hidden;
   }
 
   .popup-content {
+    height: 100%;
     padding: 0.8em;
+    box-sizing: border-box;
+    overflow-y: auto;
   }
 
   .popup-content iframe {
+    width: 100%;
     height: 100%;
+    border: none;
+    display: block;
   }
 
-.close-btn {
-  font-size: 2em;
-}
-
-  
+  .close-btn {
+    font-size: 2em;
+  }
 
   .profile-box,
   .links-box {
