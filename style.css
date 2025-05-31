@@ -20,6 +20,11 @@ img {
   user-select: none;
 }
 
+img.allow-save {
+  pointer-events: auto;
+  user-select: auto;
+}
+
 /* --- 星空 --- */
 .stars-container {
 position: fixed;
