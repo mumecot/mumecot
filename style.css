@@ -195,6 +195,7 @@ animation: twinkle 3s infinite ease-in-out;
 
 .bgm-description {
   font-size: 14px;
+  margin-bottom: 1.5em;
 }
 
 .bgm-button {
@@ -206,6 +207,8 @@ animation: twinkle 3s infinite ease-in-out;
   border-radius: 20px;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  margin-top: 2em;
+  margin-bottom: 2em;
 }
 
 .bgm-button:hover {
