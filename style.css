@@ -25,6 +25,11 @@ img.allow-save {
   user-select: auto;
 }
 
+img.popup-trigger {
+  pointer-events: auto;
+  user-select: auto;
+}
+
 /* --- 星空 --- */
 .stars-container {
 position: fixed;
