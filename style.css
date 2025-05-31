@@ -830,8 +830,10 @@ footer.copyright {
   }
 
   .index-icon-box {
-    width: calc(100% - 1.5em);
+    width: calc(100% - 1em);
     max-width: 600px;
+    margin: 0 auto;
+    padding: 0 0.25em;
     justify-content: flex-end;
   }
 
