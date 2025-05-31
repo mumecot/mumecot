@@ -848,7 +848,7 @@ footer.copyright {
     .popup {
     top: 3%;
     width: 95%;
-    height: 90vh;         /* 画面高のほぼ全体 */
+    height: 50vh;
   }
 
   .popup-content {
