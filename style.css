@@ -838,11 +838,26 @@ footer.copyright {
   }
 
   .popup {
-    top: 5%;
-    transform: translateX(-50%);
-    max-height: 90vh;
+    position: absolute; /* fixedを避ける */
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%); /* Y方向は触らない */
+    width: 95%;
+    max-height: 80vh;
     overflow-y: auto;
   }
+
+  .popup-content iframe {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .popup-content iframe {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  border: none;
+}
 
   .close-btn {
   font-size: 2em;
