@@ -807,7 +807,7 @@ footer.copyright {
   }
 
   .main-image {
-    margin: 3em auto 1.5em auto;
+    margin: 3em auto 1em auto;
     border: 1px solid #ded9c3;
     width: calc(100% - 1.5em);
     box-sizing: border-box;
