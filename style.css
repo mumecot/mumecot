@@ -839,6 +839,7 @@ footer.copyright {
 
   html, body {
     overflow-x: hidden; /* 横スクロールを防止 */
+     }
 
   .popup {
     position: absolute;
