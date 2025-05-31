@@ -829,6 +829,14 @@ footer.copyright {
     max-width: none;
   }
 
+  .index-icon-box {
+    width: calc(100% - 1.5em);
+    max-width: 600px;
+    margin: 0 auto 2em auto;
+    padding: 0 0.75em;
+    justify-content: flex-end;
+  }
+
   .profile-box,
   .links-box {
     width: calc(100% - 1.5em);
