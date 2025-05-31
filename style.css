@@ -178,14 +178,12 @@ animation: twinkle 3s infinite ease-in-out;
   width: 200px;
   height: auto;
   border: 1px solid #ded9c3;
-  margin-top: 1.5em;
 }
 
 .banner-small {
   width: 88px;
   height: auto;
   border: 1px solid #ded9c3;
-  margin-bottom: 1.5em;
 }
 
 .banner .en {
