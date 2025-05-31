@@ -140,33 +140,38 @@ animation: twinkle 3s infinite ease-in-out;
 
 .popup {
   position: fixed;
-  top: 50%;
+  top: 5%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translateX(-50%);
+  width: 90%;
+  max-width: 500px;
+  max-height: 90vh;
+  overflow-y: auto;
   background: #0d1b2a;
   border: 1px solid #ded9c3;
-  padding: 10px;
+  padding: 0;
   z-index: 1000;
   display: none;
-  max-width: 500px;
-  width: 90%;
-  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 .popup-content {
-  position: relative;
   padding: 1.5em;
+  box-sizing: border-box;
 }
 
 .close-btn {
-  position: absolute;
-  top: 5px;
-  right: 10px;
+  font-size: 1.8em;
+  padding: 0.3em 0.6em;
   background: transparent;
   border: none;
   color: #ded9c3;
-  font-size: 1.7em;
   cursor: pointer;
+  position: absolute;
+  top: 8px;
+  right: 12px;
+  z-index: 10;
 }
 
 .banner-large {
@@ -837,41 +842,19 @@ footer.copyright {
     justify-content: flex-end;
   }
 
-  html, body {
-    overflow-x: hidden; /* 横スクロールを防止 */
-     }
+    .popup {
+    top: 3%;
+    width: 95%;
+    height: 90vh;         /* 画面高のほぼ全体 */
+  }
 
-  .popup {
-  position: absolute;
-  top: 5%;
-  left: 50%;
-  transform: translateX(-50%);
-  width: 95%;
-  max-height: 85vh;
-  overflow-y: auto;
-  -webkit-overflow-scrolling: touch;
-  background: #0d1b2a;
-  border: 1px solid #ded9c3;
-  padding: 10px;
-  z-index: 1000;
-  box-sizing: border-box;
-}
+  .popup-content {
+    padding: 0.8em;
+  }
 
-.popup-content {
-  padding: 1em;
-  box-sizing: border-box;
-}
-
-.popup-content iframe {
-  width: 100%;
-  height: calc(85vh - 4em);
-  border: none;
-  display: block;
-}
-
-  .close-btn {
-  font-size: 2em;
-}
+  .popup-content iframe {
+    height: 100%;
+  }
 
   .profile-box,
   .links-box {
