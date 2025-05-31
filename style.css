@@ -837,6 +837,13 @@ footer.copyright {
     justify-content: flex-end;
   }
 
+  .popup {
+    top: 5%;
+    transform: translateX(-50%);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+
   .close-btn {
   font-size: 2em;
 }
