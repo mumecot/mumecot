@@ -464,6 +464,15 @@ animation: twinkle 3s infinite ease-in-out;
   margin-bottom: 0.5em;
 }
 
+.blog-photo {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  margin: 20px 0;
+  border-radius: 8px;
+  display: block;
+}
+
 /* --- ギャラリー --- */
 .sign {
   display: flex;
